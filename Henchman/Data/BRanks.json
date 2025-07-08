@@ -1,0 +1,6442 @@
+[
+    {
+        "BnpcName": 2919,
+        "X": 26,
+        "Y": 0,
+        "Z": 426,
+        "TerritoryId": 148
+    },
+    {
+        "BnpcName": 2919,
+        "X": 76,
+        "Y": 0,
+        "Z": 276,
+        "TerritoryId": 148
+    },
+    {
+        "BnpcName": 2919,
+        "X": 26,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 148
+    },
+    {
+        "BnpcName": 2919,
+        "X": 276,
+        "Y": 0,
+        "Z": 76,
+        "TerritoryId": 148
+    },
+    {
+        "BnpcName": 2919,
+        "X": 326,
+        "Y": 0,
+        "Z": 26,
+        "TerritoryId": 148
+    },
+    {
+        "BnpcName": 2919,
+        "X": 426,
+        "Y": 0,
+        "Z": 76,
+        "TerritoryId": 148
+    },
+    {
+        "BnpcName": 2919,
+        "X": 276,
+        "Y": 0,
+        "Z": -24,
+        "TerritoryId": 148
+    },
+    {
+        "BnpcName": 2919,
+        "X": 376,
+        "Y": 0,
+        "Z": -74,
+        "TerritoryId": 148
+    },
+    {
+        "BnpcName": 2919,
+        "X": 476,
+        "Y": 0,
+        "Z": -124,
+        "TerritoryId": 148
+    },
+    {
+        "BnpcName": 2919,
+        "X": 376,
+        "Y": 0,
+        "Z": -374,
+        "TerritoryId": 148
+    },
+    {
+        "BnpcName": 2919,
+        "X": -24,
+        "Y": 0,
+        "Z": -274,
+        "TerritoryId": 148
+    },
+    {
+        "BnpcName": 2919,
+        "X": -124,
+        "Y": 0,
+        "Z": -174,
+        "TerritoryId": 148
+    },
+    {
+        "BnpcName": 2919,
+        "X": -224,
+        "Y": 0,
+        "Z": -174,
+        "TerritoryId": 148
+    },
+    {
+        "BnpcName": 2919,
+        "X": -274,
+        "Y": 0,
+        "Z": -74,
+        "TerritoryId": 148
+    },
+    {
+        "BnpcName": 2919,
+        "X": -274,
+        "Y": 0,
+        "Z": -24,
+        "TerritoryId": 148
+    },
+    {
+        "BnpcName": 2919,
+        "X": -274,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 148
+    },
+    {
+        "BnpcName": 2919,
+        "X": -374,
+        "Y": 0,
+        "Z": -74,
+        "TerritoryId": 148
+    },
+    {
+        "BnpcName": 2919,
+        "X": -424,
+        "Y": 0,
+        "Z": -24,
+        "TerritoryId": 148
+    },
+    {
+        "BnpcName": 2919,
+        "X": -474,
+        "Y": 0,
+        "Z": -124,
+        "TerritoryId": 148
+    },
+    {
+        "BnpcName": 2919,
+        "X": -574,
+        "Y": 0,
+        "Z": -124,
+        "TerritoryId": 148
+    },
+    {
+        "BnpcName": 2919,
+        "X": -574,
+        "Y": 0,
+        "Z": -224,
+        "TerritoryId": 148
+    },
+    {
+        "BnpcName": 2919,
+        "X": -574,
+        "Y": 0,
+        "Z": 26,
+        "TerritoryId": 148
+    },
+    {
+        "BnpcName": 2919,
+        "X": -474,
+        "Y": 0,
+        "Z": 76,
+        "TerritoryId": 148
+    },
+    {
+        "BnpcName": 2920,
+        "X": 176,
+        "Y": 0,
+        "Z": -224,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": 126,
+        "Y": 0,
+        "Z": -224,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": 126,
+        "Y": 0,
+        "Z": -324,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": 226,
+        "Y": 0,
+        "Z": -524,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": 176,
+        "Y": 0,
+        "Z": -574,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": 176,
+        "Y": 0,
+        "Z": -474,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": 226,
+        "Y": 0,
+        "Z": -424,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": 276,
+        "Y": 0,
+        "Z": -424,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": 376,
+        "Y": 0,
+        "Z": -524,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": 326,
+        "Y": 0,
+        "Z": -424,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": 426,
+        "Y": 0,
+        "Z": -424,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": 526,
+        "Y": 0,
+        "Z": -324,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": 426,
+        "Y": 0,
+        "Z": -174,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": 276,
+        "Y": 0,
+        "Z": -174,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": 276,
+        "Y": 0,
+        "Z": -124,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": 526,
+        "Y": 0,
+        "Z": -24,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": 376,
+        "Y": 0,
+        "Z": -24,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": 226,
+        "Y": 0,
+        "Z": -24,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": 326,
+        "Y": 0,
+        "Z": 76,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": 276,
+        "Y": 0,
+        "Z": 176,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": 176,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": 226,
+        "Y": 0,
+        "Z": 176,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": -124,
+        "Y": 0,
+        "Z": 176,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": 76,
+        "Y": 0,
+        "Z": 26,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": -24,
+        "Y": 0,
+        "Z": 26,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": -224,
+        "Y": 0,
+        "Z": 26,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": -224,
+        "Y": 0,
+        "Z": 76,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": -274,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": -424,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": -374,
+        "Y": 0,
+        "Z": 226,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": -374,
+        "Y": 0,
+        "Z": 276,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": -74,
+        "Y": 0,
+        "Z": 376,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": 126,
+        "Y": 0,
+        "Z": 476,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": 26,
+        "Y": 0,
+        "Z": 326,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2920,
+        "X": 26,
+        "Y": 0,
+        "Z": 376,
+        "TerritoryId": 152
+    },
+    {
+        "BnpcName": 2921,
+        "X": -224,
+        "Y": 0,
+        "Z": 526,
+        "TerritoryId": 153
+    },
+    {
+        "BnpcName": 2921,
+        "X": -274,
+        "Y": 0,
+        "Z": 526,
+        "TerritoryId": 153
+    },
+    {
+        "BnpcName": 2921,
+        "X": -174,
+        "Y": 0,
+        "Z": 476,
+        "TerritoryId": 153
+    },
+    {
+        "BnpcName": 2921,
+        "X": -224,
+        "Y": 0,
+        "Z": 476,
+        "TerritoryId": 153
+    },
+    {
+        "BnpcName": 2921,
+        "X": -274,
+        "Y": 0,
+        "Z": 326,
+        "TerritoryId": 153
+    },
+    {
+        "BnpcName": 2921,
+        "X": -274,
+        "Y": 0,
+        "Z": 276,
+        "TerritoryId": 153
+    },
+    {
+        "BnpcName": 2921,
+        "X": -124,
+        "Y": 0,
+        "Z": 326,
+        "TerritoryId": 153
+    },
+    {
+        "BnpcName": 2921,
+        "X": -124,
+        "Y": 0,
+        "Z": 276,
+        "TerritoryId": 153
+    },
+    {
+        "BnpcName": 2921,
+        "X": -24,
+        "Y": 0,
+        "Z": 326,
+        "TerritoryId": 153
+    },
+    {
+        "BnpcName": 2921,
+        "X": 26,
+        "Y": 0,
+        "Z": 226,
+        "TerritoryId": 153
+    },
+    {
+        "BnpcName": 2921,
+        "X": 76,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 153
+    },
+    {
+        "BnpcName": 2921,
+        "X": 276,
+        "Y": 0,
+        "Z": 26,
+        "TerritoryId": 153
+    },
+    {
+        "BnpcName": 2921,
+        "X": 376,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 153
+    },
+    {
+        "BnpcName": 2921,
+        "X": 476,
+        "Y": 0,
+        "Z": 176,
+        "TerritoryId": 153
+    },
+    {
+        "BnpcName": 2921,
+        "X": 526,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 153
+    },
+    {
+        "BnpcName": 2921,
+        "X": 576,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 153
+    },
+    {
+        "BnpcName": 2921,
+        "X": 26,
+        "Y": 0,
+        "Z": -24,
+        "TerritoryId": 153
+    },
+    {
+        "BnpcName": 2921,
+        "X": 76,
+        "Y": 0,
+        "Z": 26,
+        "TerritoryId": 153
+    },
+    {
+        "BnpcName": 2921,
+        "X": 26,
+        "Y": 0,
+        "Z": -124,
+        "TerritoryId": 153
+    },
+    {
+        "BnpcName": 2921,
+        "X": 126,
+        "Y": 0,
+        "Z": -174,
+        "TerritoryId": 153
+    },
+    {
+        "BnpcName": 2921,
+        "X": 276,
+        "Y": 0,
+        "Z": -74,
+        "TerritoryId": 153
+    },
+    {
+        "BnpcName": 2921,
+        "X": 276,
+        "Y": 0,
+        "Z": -174,
+        "TerritoryId": 153
+    },
+    {
+        "BnpcName": 2921,
+        "X": 276,
+        "Y": 0,
+        "Z": 76,
+        "TerritoryId": 153
+    },
+    {
+        "BnpcName": 2921,
+        "X": -124,
+        "Y": 0,
+        "Z": -174,
+        "TerritoryId": 153
+    },
+    {
+        "BnpcName": 2921,
+        "X": -224,
+        "Y": 0,
+        "Z": -174,
+        "TerritoryId": 153
+    },
+    {
+        "BnpcName": 2921,
+        "X": -274,
+        "Y": 0,
+        "Z": -124,
+        "TerritoryId": 153
+    },
+    {
+        "BnpcName": 2921,
+        "X": -224,
+        "Y": 0,
+        "Z": 26,
+        "TerritoryId": 153
+    },
+    {
+        "BnpcName": 2921,
+        "X": -124,
+        "Y": 0,
+        "Z": 26,
+        "TerritoryId": 153
+    },
+    {
+        "BnpcName": 2921,
+        "X": -224,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 153
+    },
+    {
+        "BnpcName": 2922,
+        "X": -24,
+        "Y": 0,
+        "Z": 426,
+        "TerritoryId": 154
+    },
+    {
+        "BnpcName": 2922,
+        "X": -124,
+        "Y": 0,
+        "Z": 376,
+        "TerritoryId": 154
+    },
+    {
+        "BnpcName": 2922,
+        "X": -174,
+        "Y": 0,
+        "Z": 376,
+        "TerritoryId": 154
+    },
+    {
+        "BnpcName": 2922,
+        "X": -274,
+        "Y": 0,
+        "Z": 376,
+        "TerritoryId": 154
+    },
+    {
+        "BnpcName": 2922,
+        "X": -174,
+        "Y": 0,
+        "Z": 276,
+        "TerritoryId": 154
+    },
+    {
+        "BnpcName": 2922,
+        "X": -224,
+        "Y": 0,
+        "Z": 226,
+        "TerritoryId": 154
+    },
+    {
+        "BnpcName": 2922,
+        "X": 76,
+        "Y": 0,
+        "Z": 326,
+        "TerritoryId": 154
+    },
+    {
+        "BnpcName": 2922,
+        "X": 176,
+        "Y": 0,
+        "Z": 376,
+        "TerritoryId": 154
+    },
+    {
+        "BnpcName": 2922,
+        "X": 176,
+        "Y": 0,
+        "Z": 226,
+        "TerritoryId": 154
+    },
+    {
+        "BnpcName": 2922,
+        "X": 226,
+        "Y": 0,
+        "Z": 226,
+        "TerritoryId": 154
+    },
+    {
+        "BnpcName": 2922,
+        "X": 326,
+        "Y": 0,
+        "Z": 276,
+        "TerritoryId": 154
+    },
+    {
+        "BnpcName": 2922,
+        "X": 326,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 154
+    },
+    {
+        "BnpcName": 2922,
+        "X": 26,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 154
+    },
+    {
+        "BnpcName": 2922,
+        "X": 226,
+        "Y": 0,
+        "Z": 76,
+        "TerritoryId": 154
+    },
+    {
+        "BnpcName": 2922,
+        "X": 326,
+        "Y": 0,
+        "Z": 26,
+        "TerritoryId": 154
+    },
+    {
+        "BnpcName": 2922,
+        "X": 376,
+        "Y": 0,
+        "Z": 26,
+        "TerritoryId": 154
+    },
+    {
+        "BnpcName": 2922,
+        "X": 126,
+        "Y": 0,
+        "Z": -74,
+        "TerritoryId": 154
+    },
+    {
+        "BnpcName": 2922,
+        "X": 76,
+        "Y": 0,
+        "Z": -74,
+        "TerritoryId": 154
+    },
+    {
+        "BnpcName": 2922,
+        "X": 26,
+        "Y": 0,
+        "Z": -24,
+        "TerritoryId": 154
+    },
+    {
+        "BnpcName": 2922,
+        "X": -124,
+        "Y": 0,
+        "Z": -74,
+        "TerritoryId": 154
+    },
+    {
+        "BnpcName": 2923,
+        "X": 226,
+        "Y": 0,
+        "Z": 226,
+        "TerritoryId": 140
+    },
+    {
+        "BnpcName": 2923,
+        "X": -24,
+        "Y": 0,
+        "Z": 326,
+        "TerritoryId": 140
+    },
+    {
+        "BnpcName": 2923,
+        "X": -74,
+        "Y": 0,
+        "Z": 376,
+        "TerritoryId": 140
+    },
+    {
+        "BnpcName": 2923,
+        "X": -124,
+        "Y": 0,
+        "Z": 376,
+        "TerritoryId": 140
+    },
+    {
+        "BnpcName": 2923,
+        "X": -24,
+        "Y": 0,
+        "Z": 176,
+        "TerritoryId": 140
+    },
+    {
+        "BnpcName": 2923,
+        "X": -24,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 140
+    },
+    {
+        "BnpcName": 2923,
+        "X": 26,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 140
+    },
+    {
+        "BnpcName": 2923,
+        "X": 76,
+        "Y": 0,
+        "Z": 176,
+        "TerritoryId": 140
+    },
+    {
+        "BnpcName": 2923,
+        "X": 26,
+        "Y": 0,
+        "Z": 26,
+        "TerritoryId": 140
+    },
+    {
+        "BnpcName": 2923,
+        "X": 76,
+        "Y": 0,
+        "Z": -74,
+        "TerritoryId": 140
+    },
+    {
+        "BnpcName": 2923,
+        "X": 226,
+        "Y": 0,
+        "Z": -124,
+        "TerritoryId": 140
+    },
+    {
+        "BnpcName": 2923,
+        "X": 276,
+        "Y": 0,
+        "Z": -224,
+        "TerritoryId": 140
+    },
+    {
+        "BnpcName": 2923,
+        "X": -174,
+        "Y": 0,
+        "Z": -224,
+        "TerritoryId": 140
+    },
+    {
+        "BnpcName": 2923,
+        "X": -224,
+        "Y": 0,
+        "Z": -274,
+        "TerritoryId": 140
+    },
+    {
+        "BnpcName": 2923,
+        "X": -174,
+        "Y": 0,
+        "Z": -324,
+        "TerritoryId": 140
+    },
+    {
+        "BnpcName": 2923,
+        "X": -374,
+        "Y": 0,
+        "Z": -674,
+        "TerritoryId": 140
+    },
+    {
+        "BnpcName": 2923,
+        "X": -324,
+        "Y": 0,
+        "Z": -774,
+        "TerritoryId": 140
+    },
+    {
+        "BnpcName": 2923,
+        "X": -474,
+        "Y": 0,
+        "Z": -724,
+        "TerritoryId": 140
+    },
+    {
+        "BnpcName": 2923,
+        "X": -474,
+        "Y": 0,
+        "Z": -774,
+        "TerritoryId": 140
+    },
+    {
+        "BnpcName": 2923,
+        "X": -574,
+        "Y": 0,
+        "Z": -724,
+        "TerritoryId": 140
+    },
+    {
+        "BnpcName": 2923,
+        "X": -524,
+        "Y": 0,
+        "Z": -824,
+        "TerritoryId": 140
+    },
+    {
+        "BnpcName": 2923,
+        "X": -674,
+        "Y": 0,
+        "Z": -824,
+        "TerritoryId": 140
+    },
+    {
+        "BnpcName": 2924,
+        "X": 76,
+        "Y": 0,
+        "Z": 676,
+        "TerritoryId": 141
+    },
+    {
+        "BnpcName": 2924,
+        "X": 126,
+        "Y": 0,
+        "Z": 526,
+        "TerritoryId": 141
+    },
+    {
+        "BnpcName": 2924,
+        "X": 26,
+        "Y": 0,
+        "Z": 476,
+        "TerritoryId": 141
+    },
+    {
+        "BnpcName": 2924,
+        "X": 226,
+        "Y": 0,
+        "Z": 426,
+        "TerritoryId": 141
+    },
+    {
+        "BnpcName": 2924,
+        "X": -74,
+        "Y": 0,
+        "Z": 226,
+        "TerritoryId": 141
+    },
+    {
+        "BnpcName": 2924,
+        "X": -124,
+        "Y": 0,
+        "Z": 176,
+        "TerritoryId": 141
+    },
+    {
+        "BnpcName": 2924,
+        "X": -124,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 141
+    },
+    {
+        "BnpcName": 2924,
+        "X": -224,
+        "Y": 0,
+        "Z": 76,
+        "TerritoryId": 141
+    },
+    {
+        "BnpcName": 2924,
+        "X": -124,
+        "Y": 0,
+        "Z": -24,
+        "TerritoryId": 141
+    },
+    {
+        "BnpcName": 2924,
+        "X": -274,
+        "Y": 0,
+        "Z": -124,
+        "TerritoryId": 141
+    },
+    {
+        "BnpcName": 2924,
+        "X": -174,
+        "Y": 0,
+        "Z": -124,
+        "TerritoryId": 141
+    },
+    {
+        "BnpcName": 2924,
+        "X": 26,
+        "Y": 0,
+        "Z": -24,
+        "TerritoryId": 141
+    },
+    {
+        "BnpcName": 2924,
+        "X": -174,
+        "Y": 0,
+        "Z": -174,
+        "TerritoryId": 141
+    },
+    {
+        "BnpcName": 2924,
+        "X": -274,
+        "Y": 0,
+        "Z": -274,
+        "TerritoryId": 141
+    },
+    {
+        "BnpcName": 2924,
+        "X": -274,
+        "Y": 0,
+        "Z": -424,
+        "TerritoryId": 141
+    },
+    {
+        "BnpcName": 2924,
+        "X": -174,
+        "Y": 0,
+        "Z": -424,
+        "TerritoryId": 141
+    },
+    {
+        "BnpcName": 2924,
+        "X": 26,
+        "Y": 0,
+        "Z": -374,
+        "TerritoryId": 141
+    },
+    {
+        "BnpcName": 2924,
+        "X": 26,
+        "Y": 0,
+        "Z": -274,
+        "TerritoryId": 141
+    },
+    {
+        "BnpcName": 2924,
+        "X": -24,
+        "Y": 0,
+        "Z": -274,
+        "TerritoryId": 141
+    },
+    {
+        "BnpcName": 2924,
+        "X": 226,
+        "Y": 0,
+        "Z": -174,
+        "TerritoryId": 141
+    },
+    {
+        "BnpcName": 2924,
+        "X": 326,
+        "Y": 0,
+        "Z": -174,
+        "TerritoryId": 141
+    },
+    {
+        "BnpcName": 2924,
+        "X": 276,
+        "Y": 0,
+        "Z": 26,
+        "TerritoryId": 141
+    },
+    {
+        "BnpcName": 2924,
+        "X": 426,
+        "Y": 0,
+        "Z": -24,
+        "TerritoryId": 141
+    },
+    {
+        "BnpcName": 2925,
+        "X": -424,
+        "Y": 0,
+        "Z": 376,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": -324,
+        "Y": 0,
+        "Z": 226,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": -274,
+        "Y": 0,
+        "Z": 276,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": -224,
+        "Y": 0,
+        "Z": 226,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": -224,
+        "Y": 0,
+        "Z": 176,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": -174,
+        "Y": 0,
+        "Z": 176,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": -74,
+        "Y": 0,
+        "Z": 176,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": -124,
+        "Y": 0,
+        "Z": 76,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": -174,
+        "Y": 0,
+        "Z": 26,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": -224,
+        "Y": 0,
+        "Z": -74,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": -274,
+        "Y": 0,
+        "Z": -74,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": -324,
+        "Y": 0,
+        "Z": -124,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": -324,
+        "Y": 0,
+        "Z": -224,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": -424,
+        "Y": 0,
+        "Z": -274,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": -524,
+        "Y": 0,
+        "Z": -124,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": -424,
+        "Y": 0,
+        "Z": -124,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": -174,
+        "Y": 0,
+        "Z": 326,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": -124,
+        "Y": 0,
+        "Z": 376,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": -24,
+        "Y": 0,
+        "Z": 376,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": 76,
+        "Y": 0,
+        "Z": 276,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": 176,
+        "Y": 0,
+        "Z": 226,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": 276,
+        "Y": 0,
+        "Z": 176,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": 326,
+        "Y": 0,
+        "Z": 226,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": 326,
+        "Y": 0,
+        "Z": 276,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": 326,
+        "Y": 0,
+        "Z": -24,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": 176,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": 76,
+        "Y": 0,
+        "Z": 76,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": 126,
+        "Y": 0,
+        "Z": -24,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": 76,
+        "Y": 0,
+        "Z": -74,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": 126,
+        "Y": 0,
+        "Z": -124,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": 76,
+        "Y": 0,
+        "Z": -74,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": 226,
+        "Y": 0,
+        "Z": -224,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": 276,
+        "Y": 0,
+        "Z": -74,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": 276,
+        "Y": 0,
+        "Z": -174,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2925,
+        "X": 376,
+        "Y": 0,
+        "Z": -174,
+        "TerritoryId": 145
+    },
+    {
+        "BnpcName": 2926,
+        "X": -174,
+        "Y": 0,
+        "Z": 426,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": -224,
+        "Y": 0,
+        "Z": 576,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": -374,
+        "Y": 0,
+        "Z": 626,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": -324,
+        "Y": 0,
+        "Z": 826,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": -224,
+        "Y": 0,
+        "Z": 726,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": -124,
+        "Y": 0,
+        "Z": 826,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": 76,
+        "Y": 0,
+        "Z": 826,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": 176,
+        "Y": 0,
+        "Z": 926,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": 176,
+        "Y": 0,
+        "Z": 726,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": 76,
+        "Y": 0,
+        "Z": 576,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": -24,
+        "Y": 0,
+        "Z": 626,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": -24,
+        "Y": 0,
+        "Z": 526,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": 376,
+        "Y": 0,
+        "Z": 676,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": 126,
+        "Y": 0,
+        "Z": 426,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": -24,
+        "Y": 0,
+        "Z": 376,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": -74,
+        "Y": 0,
+        "Z": 326,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": -24,
+        "Y": 0,
+        "Z": 226,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": -124,
+        "Y": 0,
+        "Z": 176,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": -224,
+        "Y": 0,
+        "Z": 226,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": -274,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": -224,
+        "Y": 0,
+        "Z": 76,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": -174,
+        "Y": 0,
+        "Z": 76,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": -174,
+        "Y": 0,
+        "Z": -24,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": -24,
+        "Y": 0,
+        "Z": 76,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": 126,
+        "Y": 0,
+        "Z": 176,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": -24,
+        "Y": 0,
+        "Z": -24,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": -124,
+        "Y": 0,
+        "Z": -124,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": -274,
+        "Y": 0,
+        "Z": -74,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": 126,
+        "Y": 0,
+        "Z": -24,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": 326,
+        "Y": 0,
+        "Z": -24,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": 476,
+        "Y": 0,
+        "Z": -174,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": 576,
+        "Y": 0,
+        "Z": -74,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": -124,
+        "Y": 0,
+        "Z": -224,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": -224,
+        "Y": 0,
+        "Z": -224,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": -224,
+        "Y": 0,
+        "Z": -474,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": -174,
+        "Y": 0,
+        "Z": -524,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": -174,
+        "Y": 0,
+        "Z": -574,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": -24,
+        "Y": 0,
+        "Z": -524,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": 126,
+        "Y": 0,
+        "Z": -474,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": 176,
+        "Y": 0,
+        "Z": -524,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": 176,
+        "Y": 0,
+        "Z": -624,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2926,
+        "X": 76,
+        "Y": 0,
+        "Z": -674,
+        "TerritoryId": 146
+    },
+    {
+        "BnpcName": 2927,
+        "X": -24,
+        "Y": 0,
+        "Z": 326,
+        "TerritoryId": 147
+    },
+    {
+        "BnpcName": 2927,
+        "X": 26,
+        "Y": 0,
+        "Z": 276,
+        "TerritoryId": 147
+    },
+    {
+        "BnpcName": 2927,
+        "X": 76,
+        "Y": 0,
+        "Z": 226,
+        "TerritoryId": 147
+    },
+    {
+        "BnpcName": 2927,
+        "X": 126,
+        "Y": 0,
+        "Z": 176,
+        "TerritoryId": 147
+    },
+    {
+        "BnpcName": 2927,
+        "X": 26,
+        "Y": 0,
+        "Z": 176,
+        "TerritoryId": 147
+    },
+    {
+        "BnpcName": 2927,
+        "X": 126,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 147
+    },
+    {
+        "BnpcName": 2927,
+        "X": 126,
+        "Y": 0,
+        "Z": 76,
+        "TerritoryId": 147
+    },
+    {
+        "BnpcName": 2927,
+        "X": 76,
+        "Y": 0,
+        "Z": 76,
+        "TerritoryId": 147
+    },
+    {
+        "BnpcName": 2927,
+        "X": -274,
+        "Y": 0,
+        "Z": -124,
+        "TerritoryId": 147
+    },
+    {
+        "BnpcName": 2927,
+        "X": -324,
+        "Y": 0,
+        "Z": -124,
+        "TerritoryId": 147
+    },
+    {
+        "BnpcName": 2927,
+        "X": -124,
+        "Y": 0,
+        "Z": -174,
+        "TerritoryId": 147
+    },
+    {
+        "BnpcName": 2927,
+        "X": -174,
+        "Y": 0,
+        "Z": -224,
+        "TerritoryId": 147
+    },
+    {
+        "BnpcName": 2927,
+        "X": -174,
+        "Y": 0,
+        "Z": -224,
+        "TerritoryId": 147
+    },
+    {
+        "BnpcName": 2927,
+        "X": -124,
+        "Y": 0,
+        "Z": -224,
+        "TerritoryId": 147
+    },
+    {
+        "BnpcName": 2927,
+        "X": -224,
+        "Y": 0,
+        "Z": -224,
+        "TerritoryId": 147
+    },
+    {
+        "BnpcName": 2927,
+        "X": -224,
+        "Y": 0,
+        "Z": -324,
+        "TerritoryId": 147
+    },
+    {
+        "BnpcName": 2927,
+        "X": -274,
+        "Y": 0,
+        "Z": -274,
+        "TerritoryId": 147
+    },
+    {
+        "BnpcName": 2927,
+        "X": -274,
+        "Y": 0,
+        "Z": -374,
+        "TerritoryId": 147
+    },
+    {
+        "BnpcName": 2928,
+        "X": 126,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 134
+    },
+    {
+        "BnpcName": 2928,
+        "X": 76,
+        "Y": 0,
+        "Z": 76,
+        "TerritoryId": 134
+    },
+    {
+        "BnpcName": 2928,
+        "X": 176,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 134
+    },
+    {
+        "BnpcName": 2928,
+        "X": 126,
+        "Y": 0,
+        "Z": -24,
+        "TerritoryId": 134
+    },
+    {
+        "BnpcName": 2928,
+        "X": 126,
+        "Y": 0,
+        "Z": -74,
+        "TerritoryId": 134
+    },
+    {
+        "BnpcName": 2928,
+        "X": -74,
+        "Y": 0,
+        "Z": 26,
+        "TerritoryId": 134
+    },
+    {
+        "BnpcName": 2928,
+        "X": -74,
+        "Y": 0,
+        "Z": -24,
+        "TerritoryId": 134
+    },
+    {
+        "BnpcName": 2928,
+        "X": -124,
+        "Y": 0,
+        "Z": -74,
+        "TerritoryId": 134
+    },
+    {
+        "BnpcName": 2928,
+        "X": -24,
+        "Y": 0,
+        "Z": -174,
+        "TerritoryId": 134
+    },
+    {
+        "BnpcName": 2928,
+        "X": 76,
+        "Y": 0,
+        "Z": -224,
+        "TerritoryId": 134
+    },
+    {
+        "BnpcName": 2928,
+        "X": -24,
+        "Y": 0,
+        "Z": -324,
+        "TerritoryId": 134
+    },
+    {
+        "BnpcName": 2928,
+        "X": -74,
+        "Y": 0,
+        "Z": -374,
+        "TerritoryId": 134
+    },
+    {
+        "BnpcName": 2928,
+        "X": -124,
+        "Y": 0,
+        "Z": -274,
+        "TerritoryId": 134
+    },
+    {
+        "BnpcName": 2928,
+        "X": -224,
+        "Y": 0,
+        "Z": -224,
+        "TerritoryId": 134
+    },
+    {
+        "BnpcName": 2928,
+        "X": -174,
+        "Y": 0,
+        "Z": -174,
+        "TerritoryId": 134
+    },
+    {
+        "BnpcName": 2928,
+        "X": -274,
+        "Y": 0,
+        "Z": -324,
+        "TerritoryId": 134
+    },
+    {
+        "BnpcName": 2928,
+        "X": -224,
+        "Y": 0,
+        "Z": -374,
+        "TerritoryId": 134
+    },
+    {
+        "BnpcName": 2928,
+        "X": -174,
+        "Y": 0,
+        "Z": -424,
+        "TerritoryId": 134
+    },
+    {
+        "BnpcName": 2928,
+        "X": -374,
+        "Y": 0,
+        "Z": -374,
+        "TerritoryId": 134
+    },
+    {
+        "BnpcName": 2928,
+        "X": -374,
+        "Y": 0,
+        "Z": -474,
+        "TerritoryId": 134
+    },
+    {
+        "BnpcName": 2928,
+        "X": -224,
+        "Y": 0,
+        "Z": -374,
+        "TerritoryId": 134
+    },
+    {
+        "BnpcName": 2928,
+        "X": -274,
+        "Y": 0,
+        "Z": -524,
+        "TerritoryId": 134
+    },
+    {
+        "BnpcName": 2928,
+        "X": -174,
+        "Y": 0,
+        "Z": -574,
+        "TerritoryId": 134
+    },
+    {
+        "BnpcName": 2928,
+        "X": -224,
+        "Y": 0,
+        "Z": -674,
+        "TerritoryId": 134
+    },
+    {
+        "BnpcName": 2929,
+        "X": 76,
+        "Y": 0,
+        "Z": 726,
+        "TerritoryId": 135
+    },
+    {
+        "BnpcName": 2929,
+        "X": 26,
+        "Y": 0,
+        "Z": 626,
+        "TerritoryId": 135
+    },
+    {
+        "BnpcName": 2929,
+        "X": -24,
+        "Y": 0,
+        "Z": 726,
+        "TerritoryId": 135
+    },
+    {
+        "BnpcName": 2929,
+        "X": -74,
+        "Y": 0,
+        "Z": 676,
+        "TerritoryId": 135
+    },
+    {
+        "BnpcName": 2929,
+        "X": -124,
+        "Y": 0,
+        "Z": 676,
+        "TerritoryId": 135
+    },
+    {
+        "BnpcName": 2929,
+        "X": -224,
+        "Y": 0,
+        "Z": 676,
+        "TerritoryId": 135
+    },
+    {
+        "BnpcName": 2929,
+        "X": -74,
+        "Y": 0,
+        "Z": 776,
+        "TerritoryId": 135
+    },
+    {
+        "BnpcName": 2929,
+        "X": 76,
+        "Y": 0,
+        "Z": 826,
+        "TerritoryId": 135
+    },
+    {
+        "BnpcName": 2929,
+        "X": -74,
+        "Y": 0,
+        "Z": 526,
+        "TerritoryId": 135
+    },
+    {
+        "BnpcName": 2929,
+        "X": 176,
+        "Y": 0,
+        "Z": 226,
+        "TerritoryId": 135
+    },
+    {
+        "BnpcName": 2929,
+        "X": 276,
+        "Y": 0,
+        "Z": 226,
+        "TerritoryId": 135
+    },
+    {
+        "BnpcName": 2929,
+        "X": 226,
+        "Y": 0,
+        "Z": 176,
+        "TerritoryId": 135
+    },
+    {
+        "BnpcName": 2929,
+        "X": 176,
+        "Y": 0,
+        "Z": 26,
+        "TerritoryId": 135
+    },
+    {
+        "BnpcName": 2929,
+        "X": 376,
+        "Y": 0,
+        "Z": -74,
+        "TerritoryId": 135
+    },
+    {
+        "BnpcName": 2929,
+        "X": 376,
+        "Y": 0,
+        "Z": -174,
+        "TerritoryId": 135
+    },
+    {
+        "BnpcName": 2929,
+        "X": 376,
+        "Y": 0,
+        "Z": -224,
+        "TerritoryId": 135
+    },
+    {
+        "BnpcName": 2929,
+        "X": 426,
+        "Y": 0,
+        "Z": -374,
+        "TerritoryId": 135
+    },
+    {
+        "BnpcName": 2929,
+        "X": 476,
+        "Y": 0,
+        "Z": -274,
+        "TerritoryId": 135
+    },
+    {
+        "BnpcName": 2929,
+        "X": 576,
+        "Y": 0,
+        "Z": -274,
+        "TerritoryId": 135
+    },
+    {
+        "BnpcName": 2929,
+        "X": 626,
+        "Y": 0,
+        "Z": -224,
+        "TerritoryId": 135
+    },
+    {
+        "BnpcName": 2930,
+        "X": 26,
+        "Y": 0,
+        "Z": 176,
+        "TerritoryId": 137
+    },
+    {
+        "BnpcName": 2930,
+        "X": -74,
+        "Y": 0,
+        "Z": 176,
+        "TerritoryId": 137
+    },
+    {
+        "BnpcName": 2930,
+        "X": -174,
+        "Y": 0,
+        "Z": 176,
+        "TerritoryId": 137
+    },
+    {
+        "BnpcName": 2930,
+        "X": -174,
+        "Y": 0,
+        "Z": 326,
+        "TerritoryId": 137
+    },
+    {
+        "BnpcName": 2930,
+        "X": -224,
+        "Y": 0,
+        "Z": 426,
+        "TerritoryId": 137
+    },
+    {
+        "BnpcName": 2930,
+        "X": -324,
+        "Y": 0,
+        "Z": 376,
+        "TerritoryId": 137
+    },
+    {
+        "BnpcName": 2930,
+        "X": -324,
+        "Y": 0,
+        "Z": 426,
+        "TerritoryId": 137
+    },
+    {
+        "BnpcName": 2930,
+        "X": -24,
+        "Y": 0,
+        "Z": 376,
+        "TerritoryId": 137
+    },
+    {
+        "BnpcName": 2930,
+        "X": -24,
+        "Y": 0,
+        "Z": 426,
+        "TerritoryId": 137
+    },
+    {
+        "BnpcName": 2930,
+        "X": -224,
+        "Y": 0,
+        "Z": 526,
+        "TerritoryId": 137
+    },
+    {
+        "BnpcName": 2930,
+        "X": -224,
+        "Y": 0,
+        "Z": 576,
+        "TerritoryId": 137
+    },
+    {
+        "BnpcName": 2930,
+        "X": -74,
+        "Y": 0,
+        "Z": 476,
+        "TerritoryId": 137
+    },
+    {
+        "BnpcName": 2930,
+        "X": -24,
+        "Y": 0,
+        "Z": 576,
+        "TerritoryId": 137
+    },
+    {
+        "BnpcName": 2930,
+        "X": -24,
+        "Y": 0,
+        "Z": 526,
+        "TerritoryId": 137
+    },
+    {
+        "BnpcName": 2930,
+        "X": 526,
+        "Y": 0,
+        "Z": 276,
+        "TerritoryId": 137
+    },
+    {
+        "BnpcName": 2930,
+        "X": 326,
+        "Y": 0,
+        "Z": 176,
+        "TerritoryId": 137
+    },
+    {
+        "BnpcName": 2930,
+        "X": 326,
+        "Y": 0,
+        "Z": 276,
+        "TerritoryId": 137
+    },
+    {
+        "BnpcName": 2930,
+        "X": 326,
+        "Y": 0,
+        "Z": 326,
+        "TerritoryId": 137
+    },
+    {
+        "BnpcName": 2930,
+        "X": 426,
+        "Y": 0,
+        "Z": 176,
+        "TerritoryId": 137
+    },
+    {
+        "BnpcName": 2930,
+        "X": 476,
+        "Y": 0,
+        "Z": 276,
+        "TerritoryId": 137
+    },
+    {
+        "BnpcName": 2930,
+        "X": 276,
+        "Y": 0,
+        "Z": 476,
+        "TerritoryId": 137
+    },
+    {
+        "BnpcName": 2930,
+        "X": 226,
+        "Y": 0,
+        "Z": 626,
+        "TerritoryId": 137
+    },
+    {
+        "BnpcName": 2930,
+        "X": 276,
+        "Y": 0,
+        "Z": 576,
+        "TerritoryId": 137
+    },
+    {
+        "BnpcName": 2930,
+        "X": 376,
+        "Y": 0,
+        "Z": 726,
+        "TerritoryId": 137
+    },
+    {
+        "BnpcName": 2930,
+        "X": 526,
+        "Y": 0,
+        "Z": 726,
+        "TerritoryId": 137
+    },
+    {
+        "BnpcName": 2931,
+        "X": -274,
+        "Y": 0,
+        "Z": 626,
+        "TerritoryId": 138
+    },
+    {
+        "BnpcName": 2931,
+        "X": -224,
+        "Y": 0,
+        "Z": 726,
+        "TerritoryId": 138
+    },
+    {
+        "BnpcName": 2931,
+        "X": -374,
+        "Y": 0,
+        "Z": 676,
+        "TerritoryId": 138
+    },
+    {
+        "BnpcName": 2931,
+        "X": 576,
+        "Y": 0,
+        "Z": 426,
+        "TerritoryId": 138
+    },
+    {
+        "BnpcName": 2931,
+        "X": 526,
+        "Y": 0,
+        "Z": 376,
+        "TerritoryId": 138
+    },
+    {
+        "BnpcName": 2931,
+        "X": 476,
+        "Y": 0,
+        "Z": 426,
+        "TerritoryId": 138
+    },
+    {
+        "BnpcName": 2931,
+        "X": 476,
+        "Y": 0,
+        "Z": 326,
+        "TerritoryId": 138
+    },
+    {
+        "BnpcName": 2931,
+        "X": 676,
+        "Y": 0,
+        "Z": 376,
+        "TerritoryId": 138
+    },
+    {
+        "BnpcName": 2931,
+        "X": 376,
+        "Y": 0,
+        "Z": 176,
+        "TerritoryId": 138
+    },
+    {
+        "BnpcName": 2931,
+        "X": 326,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 138
+    },
+    {
+        "BnpcName": 2931,
+        "X": 226,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 138
+    },
+    {
+        "BnpcName": 2931,
+        "X": 176,
+        "Y": 0,
+        "Z": 76,
+        "TerritoryId": 138
+    },
+    {
+        "BnpcName": 2931,
+        "X": 76,
+        "Y": 0,
+        "Z": 176,
+        "TerritoryId": 138
+    },
+    {
+        "BnpcName": 2931,
+        "X": 76,
+        "Y": 0,
+        "Z": 26,
+        "TerritoryId": 138
+    },
+    {
+        "BnpcName": 2931,
+        "X": -74,
+        "Y": 0,
+        "Z": 26,
+        "TerritoryId": 138
+    },
+    {
+        "BnpcName": 2931,
+        "X": -124,
+        "Y": 0,
+        "Z": -74,
+        "TerritoryId": 138
+    },
+    {
+        "BnpcName": 2931,
+        "X": -74,
+        "Y": 0,
+        "Z": -124,
+        "TerritoryId": 138
+    },
+    {
+        "BnpcName": 2931,
+        "X": -224,
+        "Y": 0,
+        "Z": -124,
+        "TerritoryId": 138
+    },
+    {
+        "BnpcName": 2931,
+        "X": -374,
+        "Y": 0,
+        "Z": -224,
+        "TerritoryId": 138
+    },
+    {
+        "BnpcName": 2931,
+        "X": -274,
+        "Y": 0,
+        "Z": -324,
+        "TerritoryId": 138
+    },
+    {
+        "BnpcName": 2931,
+        "X": -374,
+        "Y": 0,
+        "Z": -274,
+        "TerritoryId": 138
+    },
+    {
+        "BnpcName": 2931,
+        "X": -374,
+        "Y": 0,
+        "Z": -324,
+        "TerritoryId": 138
+    },
+    {
+        "BnpcName": 2931,
+        "X": -424,
+        "Y": 0,
+        "Z": -324,
+        "TerritoryId": 138
+    },
+    {
+        "BnpcName": 2932,
+        "X": 376,
+        "Y": 0,
+        "Z": -24,
+        "TerritoryId": 139
+    },
+    {
+        "BnpcName": 2932,
+        "X": 326,
+        "Y": 0,
+        "Z": 26,
+        "TerritoryId": 139
+    },
+    {
+        "BnpcName": 2932,
+        "X": 376,
+        "Y": 0,
+        "Z": 26,
+        "TerritoryId": 139
+    },
+    {
+        "BnpcName": 2932,
+        "X": 326,
+        "Y": 0,
+        "Z": -74,
+        "TerritoryId": 139
+    },
+    {
+        "BnpcName": 2932,
+        "X": 326,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 139
+    },
+    {
+        "BnpcName": 2932,
+        "X": 426,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 139
+    },
+    {
+        "BnpcName": 2932,
+        "X": 326,
+        "Y": 0,
+        "Z": 226,
+        "TerritoryId": 139
+    },
+    {
+        "BnpcName": 2932,
+        "X": 476,
+        "Y": 0,
+        "Z": 176,
+        "TerritoryId": 139
+    },
+    {
+        "BnpcName": 2932,
+        "X": 576,
+        "Y": 0,
+        "Z": 226,
+        "TerritoryId": 139
+    },
+    {
+        "BnpcName": 2932,
+        "X": 626,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 139
+    },
+    {
+        "BnpcName": 2932,
+        "X": 726,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 139
+    },
+    {
+        "BnpcName": 2932,
+        "X": -374,
+        "Y": 0,
+        "Z": 226,
+        "TerritoryId": 139
+    },
+    {
+        "BnpcName": 2932,
+        "X": -424,
+        "Y": 0,
+        "Z": 176,
+        "TerritoryId": 139
+    },
+    {
+        "BnpcName": 2932,
+        "X": -424,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 139
+    },
+    {
+        "BnpcName": 2932,
+        "X": -474,
+        "Y": 0,
+        "Z": 76,
+        "TerritoryId": 139
+    },
+    {
+        "BnpcName": 2932,
+        "X": -474,
+        "Y": 0,
+        "Z": -24,
+        "TerritoryId": 139
+    },
+    {
+        "BnpcName": 2932,
+        "X": -524,
+        "Y": 0,
+        "Z": 26,
+        "TerritoryId": 139
+    },
+    {
+        "BnpcName": 2933,
+        "X": -274,
+        "Y": 0,
+        "Z": -174,
+        "TerritoryId": 180
+    },
+    {
+        "BnpcName": 2933,
+        "X": -324,
+        "Y": 0,
+        "Z": -174,
+        "TerritoryId": 180
+    },
+    {
+        "BnpcName": 2933,
+        "X": -324,
+        "Y": 0,
+        "Z": -224,
+        "TerritoryId": 180
+    },
+    {
+        "BnpcName": 2933,
+        "X": -424,
+        "Y": 0,
+        "Z": -224,
+        "TerritoryId": 180
+    },
+    {
+        "BnpcName": 2933,
+        "X": -324,
+        "Y": 0,
+        "Z": -324,
+        "TerritoryId": 180
+    },
+    {
+        "BnpcName": 2933,
+        "X": -374,
+        "Y": 0,
+        "Z": -374,
+        "TerritoryId": 180
+    },
+    {
+        "BnpcName": 2933,
+        "X": -324,
+        "Y": 0,
+        "Z": -474,
+        "TerritoryId": 180
+    },
+    {
+        "BnpcName": 2933,
+        "X": -324,
+        "Y": 0,
+        "Z": -524,
+        "TerritoryId": 180
+    },
+    {
+        "BnpcName": 2933,
+        "X": -124,
+        "Y": 0,
+        "Z": -324,
+        "TerritoryId": 180
+    },
+    {
+        "BnpcName": 2933,
+        "X": 76,
+        "Y": 0,
+        "Z": -274,
+        "TerritoryId": 180
+    },
+    {
+        "BnpcName": 2933,
+        "X": 76,
+        "Y": 0,
+        "Z": -324,
+        "TerritoryId": 180
+    },
+    {
+        "BnpcName": 2933,
+        "X": -24,
+        "Y": 0,
+        "Z": -324,
+        "TerritoryId": 180
+    },
+    {
+        "BnpcName": 2933,
+        "X": 126,
+        "Y": 0,
+        "Z": -274,
+        "TerritoryId": 180
+    },
+    {
+        "BnpcName": 2933,
+        "X": 76,
+        "Y": 0,
+        "Z": -424,
+        "TerritoryId": 180
+    },
+    {
+        "BnpcName": 2933,
+        "X": 26,
+        "Y": 0,
+        "Z": -524,
+        "TerritoryId": 180
+    },
+    {
+        "BnpcName": 2933,
+        "X": 26,
+        "Y": 0,
+        "Z": -574,
+        "TerritoryId": 180
+    },
+    {
+        "BnpcName": 2933,
+        "X": 76,
+        "Y": 0,
+        "Z": -624,
+        "TerritoryId": 180
+    },
+    {
+        "BnpcName": 2933,
+        "X": 26,
+        "Y": 0,
+        "Z": -674,
+        "TerritoryId": 180
+    },
+    {
+        "BnpcName": 2933,
+        "X": 26,
+        "Y": 0,
+        "Z": -724,
+        "TerritoryId": 180
+    },
+    {
+        "BnpcName": 2933,
+        "X": -24,
+        "Y": 0,
+        "Z": -724,
+        "TerritoryId": 180
+    },
+    {
+        "BnpcName": 2933,
+        "X": 176,
+        "Y": 0,
+        "Z": -674,
+        "TerritoryId": 180
+    },
+    {
+        "BnpcName": 2933,
+        "X": 276,
+        "Y": 0,
+        "Z": -774,
+        "TerritoryId": 180
+    },
+    {
+        "BnpcName": 2933,
+        "X": 276,
+        "Y": 0,
+        "Z": -724,
+        "TerritoryId": 180
+    },
+    {
+        "BnpcName": 2934,
+        "X": 126,
+        "Y": 0,
+        "Z": -74,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": 126,
+        "Y": 0,
+        "Z": 26,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": 176,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": 226,
+        "Y": 0,
+        "Z": 176,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": 276,
+        "Y": 0,
+        "Z": -24,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": 326,
+        "Y": 0,
+        "Z": 26,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": 326,
+        "Y": 0,
+        "Z": 226,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": 376,
+        "Y": 0,
+        "Z": 326,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": 426,
+        "Y": 0,
+        "Z": 426,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": 476,
+        "Y": 0,
+        "Z": 476,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": 76,
+        "Y": 0,
+        "Z": 276,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": -24,
+        "Y": 0,
+        "Z": 326,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": -74,
+        "Y": 0,
+        "Z": 376,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": -174,
+        "Y": 0,
+        "Z": 376,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": -274,
+        "Y": 0,
+        "Z": 376,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": -274,
+        "Y": 0,
+        "Z": 276,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": -324,
+        "Y": 0,
+        "Z": 226,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": -424,
+        "Y": 0,
+        "Z": 176,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": -424,
+        "Y": 0,
+        "Z": 326,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": -524,
+        "Y": 0,
+        "Z": 376,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": -524,
+        "Y": 0,
+        "Z": 276,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": -624,
+        "Y": 0,
+        "Z": 276,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": -774,
+        "Y": 0,
+        "Z": 376,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": 26,
+        "Y": 0,
+        "Z": -124,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": -24,
+        "Y": 0,
+        "Z": -274,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": -74,
+        "Y": 0,
+        "Z": -124,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": -174,
+        "Y": 0,
+        "Z": -124,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": -224,
+        "Y": 0,
+        "Z": -24,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": -374,
+        "Y": 0,
+        "Z": -74,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": -274,
+        "Y": 0,
+        "Z": -174,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": -374,
+        "Y": 0,
+        "Z": -174,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": -524,
+        "Y": 0,
+        "Z": -74,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": -524,
+        "Y": 0,
+        "Z": -124,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": -624,
+        "Y": 0,
+        "Z": -324,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": -624,
+        "Y": 0,
+        "Z": -374,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": -624,
+        "Y": 0,
+        "Z": -474,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": -524,
+        "Y": 0,
+        "Z": -424,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": -474,
+        "Y": 0,
+        "Z": -374,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": -624,
+        "Y": 0,
+        "Z": -24,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": -774,
+        "Y": 0,
+        "Z": -74,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": -824,
+        "Y": 0,
+        "Z": -174,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": -874,
+        "Y": 0,
+        "Z": -224,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": -774,
+        "Y": 0,
+        "Z": -274,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": 576,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": 676,
+        "Y": 0,
+        "Z": 76,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": 726,
+        "Y": 0,
+        "Z": 76,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": 526,
+        "Y": 0,
+        "Z": -224,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": 676,
+        "Y": 0,
+        "Z": -324,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": 526,
+        "Y": 0,
+        "Z": -324,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": 326,
+        "Y": 0,
+        "Z": -324,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": 276,
+        "Y": 0,
+        "Z": -424,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": 176,
+        "Y": 0,
+        "Z": -374,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": 426,
+        "Y": 0,
+        "Z": -474,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": 326,
+        "Y": 0,
+        "Z": -524,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": 426,
+        "Y": 0,
+        "Z": -524,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": 176,
+        "Y": 0,
+        "Z": -524,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": 176,
+        "Y": 0,
+        "Z": -624,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": 76,
+        "Y": 0,
+        "Z": -674,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": 376,
+        "Y": 0,
+        "Z": -674,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2934,
+        "X": 526,
+        "Y": 0,
+        "Z": -724,
+        "TerritoryId": 155
+    },
+    {
+        "BnpcName": 2935,
+        "X": -124,
+        "Y": 0,
+        "Z": -674,
+        "TerritoryId": 156
+    },
+    {
+        "BnpcName": 2935,
+        "X": -324,
+        "Y": 0,
+        "Z": -574,
+        "TerritoryId": 156
+    },
+    {
+        "BnpcName": 2935,
+        "X": -374,
+        "Y": 0,
+        "Z": -574,
+        "TerritoryId": 156
+    },
+    {
+        "BnpcName": 2935,
+        "X": -274,
+        "Y": 0,
+        "Z": -474,
+        "TerritoryId": 156
+    },
+    {
+        "BnpcName": 2935,
+        "X": -374,
+        "Y": 0,
+        "Z": -474,
+        "TerritoryId": 156
+    },
+    {
+        "BnpcName": 2935,
+        "X": -374,
+        "Y": 0,
+        "Z": -374,
+        "TerritoryId": 156
+    },
+    {
+        "BnpcName": 2935,
+        "X": -474,
+        "Y": 0,
+        "Z": -474,
+        "TerritoryId": 156
+    },
+    {
+        "BnpcName": 2935,
+        "X": -424,
+        "Y": 0,
+        "Z": -374,
+        "TerritoryId": 156
+    },
+    {
+        "BnpcName": 2935,
+        "X": -624,
+        "Y": 0,
+        "Z": -374,
+        "TerritoryId": 156
+    },
+    {
+        "BnpcName": 2935,
+        "X": -524,
+        "Y": 0,
+        "Z": -324,
+        "TerritoryId": 156
+    },
+    {
+        "BnpcName": 2935,
+        "X": -474,
+        "Y": 0,
+        "Z": -224,
+        "TerritoryId": 156
+    },
+    {
+        "BnpcName": 2935,
+        "X": 76,
+        "Y": 0,
+        "Z": -524,
+        "TerritoryId": 156
+    },
+    {
+        "BnpcName": 2935,
+        "X": 126,
+        "Y": 0,
+        "Z": -474,
+        "TerritoryId": 156
+    },
+    {
+        "BnpcName": 2935,
+        "X": 226,
+        "Y": 0,
+        "Z": -424,
+        "TerritoryId": 156
+    },
+    {
+        "BnpcName": 2935,
+        "X": 176,
+        "Y": 0,
+        "Z": -574,
+        "TerritoryId": 156
+    },
+    {
+        "BnpcName": 2935,
+        "X": 276,
+        "Y": 0,
+        "Z": -574,
+        "TerritoryId": 156
+    },
+    {
+        "BnpcName": 2935,
+        "X": 276,
+        "Y": 0,
+        "Z": -624,
+        "TerritoryId": 156
+    },
+    {
+        "BnpcName": 2935,
+        "X": 376,
+        "Y": 0,
+        "Z": -674,
+        "TerritoryId": 156
+    },
+    {
+        "BnpcName": 2935,
+        "X": 326,
+        "Y": 0,
+        "Z": -774,
+        "TerritoryId": 156
+    },
+    {
+        "BnpcName": 2935,
+        "X": 276,
+        "Y": 0,
+        "Z": -424,
+        "TerritoryId": 156
+    },
+    {
+        "BnpcName": 2935,
+        "X": 426,
+        "Y": 0,
+        "Z": -774,
+        "TerritoryId": 156
+    },
+    {
+        "BnpcName": 2935,
+        "X": 526,
+        "Y": 0,
+        "Z": -724,
+        "TerritoryId": 156
+    },
+    {
+        "BnpcName": 2935,
+        "X": 576,
+        "Y": 0,
+        "Z": -624,
+        "TerritoryId": 156
+    },
+    {
+        "BnpcName": 2935,
+        "X": 526,
+        "Y": 0,
+        "Z": -574,
+        "TerritoryId": 156
+    },
+    {
+        "BnpcName": 2935,
+        "X": 526,
+        "Y": 0,
+        "Z": -524,
+        "TerritoryId": 156
+    },
+    {
+        "BnpcName": 2935,
+        "X": 626,
+        "Y": 0,
+        "Z": -474,
+        "TerritoryId": 156
+    },
+    {
+        "BnpcName": 2935,
+        "X": 526,
+        "Y": 0,
+        "Z": -374,
+        "TerritoryId": 156
+    },
+    {
+        "BnpcName": 2935,
+        "X": 426,
+        "Y": 0,
+        "Z": -324,
+        "TerritoryId": 156
+    },
+    {
+        "BnpcName": 2935,
+        "X": 376,
+        "Y": 0,
+        "Z": -324,
+        "TerritoryId": 156
+    },
+    {
+        "BnpcName": 2935,
+        "X": 326,
+        "Y": 0,
+        "Z": -374,
+        "TerritoryId": 156
+    },
+    {
+        "BnpcName": 4350,
+        "X": -177.895,
+        "Y": 0,
+        "Z": 422.105,
+        "TerritoryId": 397
+    },
+    {
+        "BnpcName": 4350,
+        "X": -277.895,
+        "Y": 0,
+        "Z": 322.105,
+        "TerritoryId": 397
+    },
+    {
+        "BnpcName": 4350,
+        "X": -277.895,
+        "Y": 0,
+        "Z": 122.105,
+        "TerritoryId": 397
+    },
+    {
+        "BnpcName": 4350,
+        "X": 22.105,
+        "Y": 0,
+        "Z": 272.105,
+        "TerritoryId": 397
+    },
+    {
+        "BnpcName": 4350,
+        "X": -27.895,
+        "Y": 0,
+        "Z": -77.895,
+        "TerritoryId": 397
+    },
+    {
+        "BnpcName": 4350,
+        "X": -27.895,
+        "Y": 0,
+        "Z": -227.895,
+        "TerritoryId": 397
+    },
+    {
+        "BnpcName": 4350,
+        "X": -227.895,
+        "Y": 0,
+        "Z": -177.895,
+        "TerritoryId": 397
+    },
+    {
+        "BnpcName": 4350,
+        "X": -577.895,
+        "Y": 0,
+        "Z": -277.895,
+        "TerritoryId": 397
+    },
+    {
+        "BnpcName": 4350,
+        "X": -777.895,
+        "Y": 0,
+        "Z": -477.895,
+        "TerritoryId": 397
+    },
+    {
+        "BnpcName": 4350,
+        "X": -677.895,
+        "Y": 0,
+        "Z": -427.895,
+        "TerritoryId": 397
+    },
+    {
+        "BnpcName": 4350,
+        "X": -377.895,
+        "Y": 0,
+        "Z": -527.895,
+        "TerritoryId": 397
+    },
+    {
+        "BnpcName": 4350,
+        "X": -227.895,
+        "Y": 0,
+        "Z": -477.895,
+        "TerritoryId": 397
+    },
+    {
+        "BnpcName": 4351,
+        "X": 122.105,
+        "Y": 0,
+        "Z": 472.105,
+        "TerritoryId": 397
+    },
+    {
+        "BnpcName": 4351,
+        "X": 422.105,
+        "Y": 0,
+        "Z": 222.105,
+        "TerritoryId": 397
+    },
+    {
+        "BnpcName": 4351,
+        "X": 272.105,
+        "Y": 0,
+        "Z": -27.895,
+        "TerritoryId": 397
+    },
+    {
+        "BnpcName": 4351,
+        "X": 472.105,
+        "Y": 0,
+        "Z": -227.895,
+        "TerritoryId": 397
+    },
+    {
+        "BnpcName": 4351,
+        "X": 572.105,
+        "Y": 0,
+        "Z": -27.895,
+        "TerritoryId": 397
+    },
+    {
+        "BnpcName": 4351,
+        "X": 572.105,
+        "Y": 0,
+        "Z": -77.895,
+        "TerritoryId": 397
+    },
+    {
+        "BnpcName": 4351,
+        "X": 272.105,
+        "Y": 0,
+        "Z": -327.895,
+        "TerritoryId": 397
+    },
+    {
+        "BnpcName": 4351,
+        "X": 172.105,
+        "Y": 0,
+        "Z": -527.895,
+        "TerritoryId": 397
+    },
+    {
+        "BnpcName": 4351,
+        "X": 322.105,
+        "Y": 0,
+        "Z": -477.895,
+        "TerritoryId": 397
+    },
+    {
+        "BnpcName": 4351,
+        "X": 272.105,
+        "Y": 0,
+        "Z": -727.895,
+        "TerritoryId": 397
+    },
+    {
+        "BnpcName": 4351,
+        "X": 672.105,
+        "Y": 0,
+        "Z": -627.895,
+        "TerritoryId": 397
+    },
+    {
+        "BnpcName": 4351,
+        "X": 672.105,
+        "Y": 0,
+        "Z": -477.895,
+        "TerritoryId": 397
+    },
+    {
+        "BnpcName": 4352,
+        "X": 122.105,
+        "Y": 0,
+        "Z": 472.105,
+        "TerritoryId": 398
+    },
+    {
+        "BnpcName": 4352,
+        "X": 272.105,
+        "Y": 0,
+        "Z": 422.105,
+        "TerritoryId": 398
+    },
+    {
+        "BnpcName": 4352,
+        "X": 222.105,
+        "Y": 0,
+        "Z": 722.105,
+        "TerritoryId": 398
+    },
+    {
+        "BnpcName": 4352,
+        "X": -227.895,
+        "Y": 0,
+        "Z": 772.105,
+        "TerritoryId": 398
+    },
+    {
+        "BnpcName": 4352,
+        "X": -627.895,
+        "Y": 0,
+        "Z": 622.105,
+        "TerritoryId": 398
+    },
+    {
+        "BnpcName": 4352,
+        "X": -277.895,
+        "Y": 0,
+        "Z": 622.105,
+        "TerritoryId": 398
+    },
+    {
+        "BnpcName": 4352,
+        "X": -77.895,
+        "Y": 0,
+        "Z": 572.105,
+        "TerritoryId": 398
+    },
+    {
+        "BnpcName": 4352,
+        "X": -527.895,
+        "Y": 0,
+        "Z": 222.105,
+        "TerritoryId": 398
+    },
+    {
+        "BnpcName": 4352,
+        "X": -427.895,
+        "Y": 0,
+        "Z": 422.105,
+        "TerritoryId": 398
+    },
+    {
+        "BnpcName": 4352,
+        "X": -127.895,
+        "Y": 0,
+        "Z": 372.105,
+        "TerritoryId": 398
+    },
+    {
+        "BnpcName": 4353,
+        "X": 622.105,
+        "Y": 0,
+        "Z": 272.105,
+        "TerritoryId": 398
+    },
+    {
+        "BnpcName": 4353,
+        "X": 822.105,
+        "Y": 0,
+        "Z": 122.105,
+        "TerritoryId": 398
+    },
+    {
+        "BnpcName": 4353,
+        "X": 172.105,
+        "Y": 0,
+        "Z": 122.105,
+        "TerritoryId": 398
+    },
+    {
+        "BnpcName": 4353,
+        "X": 322.105,
+        "Y": 0,
+        "Z": -77.895,
+        "TerritoryId": 398
+    },
+    {
+        "BnpcName": 4353,
+        "X": -77.895,
+        "Y": 0,
+        "Z": -127.895,
+        "TerritoryId": 398
+    },
+    {
+        "BnpcName": 4353,
+        "X": 472.105,
+        "Y": 0,
+        "Z": -227.895,
+        "TerritoryId": 398
+    },
+    {
+        "BnpcName": 4353,
+        "X": 622.105,
+        "Y": 0,
+        "Z": -427.895,
+        "TerritoryId": 398
+    },
+    {
+        "BnpcName": 4353,
+        "X": 572.105,
+        "Y": 0,
+        "Z": -727.895,
+        "TerritoryId": 398
+    },
+    {
+        "BnpcName": 4353,
+        "X": 222.105,
+        "Y": 0,
+        "Z": -777.895,
+        "TerritoryId": 398
+    },
+    {
+        "BnpcName": 4353,
+        "X": 572.105,
+        "Y": 0,
+        "Z": -477.895,
+        "TerritoryId": 398
+    },
+    {
+        "BnpcName": 4354,
+        "X": -477.895,
+        "Y": 0,
+        "Z": -327.895,
+        "TerritoryId": 399
+    },
+    {
+        "BnpcName": 4354,
+        "X": -877.895,
+        "Y": 0,
+        "Z": -27.895,
+        "TerritoryId": 399
+    },
+    {
+        "BnpcName": 4354,
+        "X": -627.895,
+        "Y": 0,
+        "Z": -127.895,
+        "TerritoryId": 399
+    },
+    {
+        "BnpcName": 4354,
+        "X": -377.895,
+        "Y": 0,
+        "Z": -77.895,
+        "TerritoryId": 399
+    },
+    {
+        "BnpcName": 4354,
+        "X": -377.895,
+        "Y": 0,
+        "Z": 122.105,
+        "TerritoryId": 399
+    },
+    {
+        "BnpcName": 4354,
+        "X": -677.895,
+        "Y": 0,
+        "Z": 272.105,
+        "TerritoryId": 399
+    },
+    {
+        "BnpcName": 4354,
+        "X": -477.895,
+        "Y": 0,
+        "Z": 322.105,
+        "TerritoryId": 399
+    },
+    {
+        "BnpcName": 4354,
+        "X": -727.895,
+        "Y": 0,
+        "Z": 572.105,
+        "TerritoryId": 399
+    },
+    {
+        "BnpcName": 4354,
+        "X": -377.895,
+        "Y": 0,
+        "Z": 672.105,
+        "TerritoryId": 399
+    },
+    {
+        "BnpcName": 4354,
+        "X": -327.895,
+        "Y": 0,
+        "Z": 472.105,
+        "TerritoryId": 399
+    },
+    {
+        "BnpcName": 4354,
+        "X": -277.895,
+        "Y": 0,
+        "Z": 772.105,
+        "TerritoryId": 399
+    },
+    {
+        "BnpcName": 4355,
+        "X": 222.105,
+        "Y": 0,
+        "Z": -277.895,
+        "TerritoryId": 399
+    },
+    {
+        "BnpcName": 4355,
+        "X": 222.105,
+        "Y": 0,
+        "Z": -127.895,
+        "TerritoryId": 399
+    },
+    {
+        "BnpcName": 4355,
+        "X": 72.105,
+        "Y": 0,
+        "Z": 22.105,
+        "TerritoryId": 399
+    },
+    {
+        "BnpcName": 4355,
+        "X": 222.105,
+        "Y": 0,
+        "Z": 122.105,
+        "TerritoryId": 399
+    },
+    {
+        "BnpcName": 4355,
+        "X": 222.105,
+        "Y": 0,
+        "Z": 322.105,
+        "TerritoryId": 399
+    },
+    {
+        "BnpcName": 4355,
+        "X": 172.105,
+        "Y": 0,
+        "Z": 722.105,
+        "TerritoryId": 399
+    },
+    {
+        "BnpcName": 4355,
+        "X": 622.105,
+        "Y": 0,
+        "Z": 222.105,
+        "TerritoryId": 399
+    },
+    {
+        "BnpcName": 4355,
+        "X": 772.105,
+        "Y": 0,
+        "Z": 322.105,
+        "TerritoryId": 399
+    },
+    {
+        "BnpcName": 4355,
+        "X": 572.105,
+        "Y": 0,
+        "Z": 72.105,
+        "TerritoryId": 399
+    },
+    {
+        "BnpcName": 4355,
+        "X": 672.105,
+        "Y": 0,
+        "Z": -77.895,
+        "TerritoryId": 399
+    },
+    {
+        "BnpcName": 4355,
+        "X": 472.105,
+        "Y": 0,
+        "Z": -127.895,
+        "TerritoryId": 399
+    },
+    {
+        "BnpcName": 4356,
+        "X": 472.105,
+        "Y": 0,
+        "Z": 522.105,
+        "TerritoryId": 400
+    },
+    {
+        "BnpcName": 4356,
+        "X": 672.105,
+        "Y": 0,
+        "Z": 322.105,
+        "TerritoryId": 400
+    },
+    {
+        "BnpcName": 4356,
+        "X": 722.105,
+        "Y": 0,
+        "Z": 172.105,
+        "TerritoryId": 400
+    },
+    {
+        "BnpcName": 4356,
+        "X": 572.105,
+        "Y": 0,
+        "Z": -127.895,
+        "TerritoryId": 400
+    },
+    {
+        "BnpcName": 4356,
+        "X": 22.105,
+        "Y": 0,
+        "Z": 422.105,
+        "TerritoryId": 400
+    },
+    {
+        "BnpcName": 4356,
+        "X": 222.105,
+        "Y": 0,
+        "Z": 222.105,
+        "TerritoryId": 400
+    },
+    {
+        "BnpcName": 4356,
+        "X": 122.105,
+        "Y": 0,
+        "Z": -127.895,
+        "TerritoryId": 400
+    },
+    {
+        "BnpcName": 4356,
+        "X": 272.105,
+        "Y": 0,
+        "Z": -127.895,
+        "TerritoryId": 400
+    },
+    {
+        "BnpcName": 4356,
+        "X": 172.105,
+        "Y": 0,
+        "Z": -727.895,
+        "TerritoryId": 400
+    },
+    {
+        "BnpcName": 4356,
+        "X": 322.105,
+        "Y": 0,
+        "Z": -577.895,
+        "TerritoryId": 400
+    },
+    {
+        "BnpcName": 4357,
+        "X": -777.895,
+        "Y": 0,
+        "Z": 622.105,
+        "TerritoryId": 400
+    },
+    {
+        "BnpcName": 4357,
+        "X": -627.895,
+        "Y": 0,
+        "Z": 772.105,
+        "TerritoryId": 400
+    },
+    {
+        "BnpcName": 4357,
+        "X": -277.895,
+        "Y": 0,
+        "Z": 222.105,
+        "TerritoryId": 400
+    },
+    {
+        "BnpcName": 4357,
+        "X": -327.895,
+        "Y": 0,
+        "Z": 372.105,
+        "TerritoryId": 400
+    },
+    {
+        "BnpcName": 4357,
+        "X": -427.895,
+        "Y": 0,
+        "Z": 22.105,
+        "TerritoryId": 400
+    },
+    {
+        "BnpcName": 4357,
+        "X": -277.895,
+        "Y": 0,
+        "Z": 72.105,
+        "TerritoryId": 400
+    },
+    {
+        "BnpcName": 4357,
+        "X": -527.895,
+        "Y": 0,
+        "Z": -127.895,
+        "TerritoryId": 400
+    },
+    {
+        "BnpcName": 4357,
+        "X": -777.895,
+        "Y": 0,
+        "Z": -127.895,
+        "TerritoryId": 400
+    },
+    {
+        "BnpcName": 4357,
+        "X": -727.895,
+        "Y": 0,
+        "Z": -377.895,
+        "TerritoryId": 400
+    },
+    {
+        "BnpcName": 4357,
+        "X": -727.895,
+        "Y": 0,
+        "Z": -577.895,
+        "TerritoryId": 400
+    },
+    {
+        "BnpcName": 4357,
+        "X": -627.895,
+        "Y": 0,
+        "Z": -677.895,
+        "TerritoryId": 400
+    },
+    {
+        "BnpcName": 4357,
+        "X": -377.895,
+        "Y": 0,
+        "Z": -427.895,
+        "TerritoryId": 400
+    },
+    {
+        "BnpcName": 4358,
+        "X": -377.895,
+        "Y": 0,
+        "Z": 72.105,
+        "TerritoryId": 401
+    },
+    {
+        "BnpcName": 4358,
+        "X": -77.895,
+        "Y": 0,
+        "Z": -77.895,
+        "TerritoryId": 401
+    },
+    {
+        "BnpcName": 4358,
+        "X": 122.105,
+        "Y": 0,
+        "Z": 122.105,
+        "TerritoryId": 401
+    },
+    {
+        "BnpcName": 4358,
+        "X": 472.105,
+        "Y": 0,
+        "Z": -177.895,
+        "TerritoryId": 401
+    },
+    {
+        "BnpcName": 4358,
+        "X": 672.105,
+        "Y": 0,
+        "Z": 822.105,
+        "TerritoryId": 401
+    },
+    {
+        "BnpcName": 4358,
+        "X": 572.105,
+        "Y": 0,
+        "Z": 422.105,
+        "TerritoryId": 401
+    },
+    {
+        "BnpcName": 4358,
+        "X": 722.105,
+        "Y": 0,
+        "Z": -77.895,
+        "TerritoryId": 401
+    },
+    {
+        "BnpcName": 4358,
+        "X": -427.895,
+        "Y": 0,
+        "Z": 322.105,
+        "TerritoryId": 401
+    },
+    {
+        "BnpcName": 4358,
+        "X": -227.895,
+        "Y": 0,
+        "Z": 372.105,
+        "TerritoryId": 401
+    },
+    {
+        "BnpcName": 4358,
+        "X": -227.895,
+        "Y": 0,
+        "Z": 472.105,
+        "TerritoryId": 401
+    },
+    {
+        "BnpcName": 4358,
+        "X": 472.105,
+        "Y": 0,
+        "Z": 672.105,
+        "TerritoryId": 401
+    },
+    {
+        "BnpcName": 4358,
+        "X": 222.105,
+        "Y": 0,
+        "Z": 572.105,
+        "TerritoryId": 401
+    },
+    {
+        "BnpcName": 4358,
+        "X": 222.105,
+        "Y": 0,
+        "Z": 322.105,
+        "TerritoryId": 401
+    },
+    {
+        "BnpcName": 4359,
+        "X": -777.895,
+        "Y": 0,
+        "Z": -127.895,
+        "TerritoryId": 401
+    },
+    {
+        "BnpcName": 4359,
+        "X": -677.895,
+        "Y": 0,
+        "Z": -327.895,
+        "TerritoryId": 401
+    },
+    {
+        "BnpcName": 4359,
+        "X": -777.895,
+        "Y": 0,
+        "Z": -727.895,
+        "TerritoryId": 401
+    },
+    {
+        "BnpcName": 4359,
+        "X": -377.895,
+        "Y": 0,
+        "Z": -727.895,
+        "TerritoryId": 401
+    },
+    {
+        "BnpcName": 4359,
+        "X": -177.895,
+        "Y": 0,
+        "Z": -627.895,
+        "TerritoryId": 401
+    },
+    {
+        "BnpcName": 4359,
+        "X": 22.105,
+        "Y": 0,
+        "Z": -577.895,
+        "TerritoryId": 401
+    },
+    {
+        "BnpcName": 4359,
+        "X": 122.105,
+        "Y": 0,
+        "Z": -477.895,
+        "TerritoryId": 401
+    },
+    {
+        "BnpcName": 4359,
+        "X": -327.895,
+        "Y": 0,
+        "Z": -427.895,
+        "TerritoryId": 401
+    },
+    {
+        "BnpcName": 4359,
+        "X": -27.895,
+        "Y": 0,
+        "Z": -327.895,
+        "TerritoryId": 401
+    },
+    {
+        "BnpcName": 4359,
+        "X": -77.895,
+        "Y": 0,
+        "Z": -777.895,
+        "TerritoryId": 401
+    },
+    {
+        "BnpcName": 4359,
+        "X": 322.105,
+        "Y": 0,
+        "Z": -777.895,
+        "TerritoryId": 401
+    },
+    {
+        "BnpcName": 4359,
+        "X": 672.105,
+        "Y": 0,
+        "Z": -677.895,
+        "TerritoryId": 401
+    },
+    {
+        "BnpcName": 4359,
+        "X": 722.105,
+        "Y": 0,
+        "Z": -377.895,
+        "TerritoryId": 401
+    },
+    {
+        "BnpcName": 4360,
+        "X": -427.895,
+        "Y": 0,
+        "Z": -277.895,
+        "TerritoryId": 402
+    },
+    {
+        "BnpcName": 4360,
+        "X": -227.895,
+        "Y": 0,
+        "Z": -477.895,
+        "TerritoryId": 402
+    },
+    {
+        "BnpcName": 4360,
+        "X": -277.895,
+        "Y": 0,
+        "Z": -677.895,
+        "TerritoryId": 402
+    },
+    {
+        "BnpcName": 4360,
+        "X": 572.105,
+        "Y": 0,
+        "Z": 172.105,
+        "TerritoryId": 402
+    },
+    {
+        "BnpcName": 4360,
+        "X": 772.105,
+        "Y": 0,
+        "Z": 222.105,
+        "TerritoryId": 402
+    },
+    {
+        "BnpcName": 4360,
+        "X": 672.105,
+        "Y": 0,
+        "Z": 422.105,
+        "TerritoryId": 402
+    },
+    {
+        "BnpcName": 4360,
+        "X": 672.105,
+        "Y": 0,
+        "Z": 572.105,
+        "TerritoryId": 402
+    },
+    {
+        "BnpcName": 4360,
+        "X": 722.105,
+        "Y": 0,
+        "Z": 722.105,
+        "TerritoryId": 402
+    },
+    {
+        "BnpcName": 4360,
+        "X": 372.105,
+        "Y": 0,
+        "Z": 622.105,
+        "TerritoryId": 402
+    },
+    {
+        "BnpcName": 4360,
+        "X": 372.105,
+        "Y": 0,
+        "Z": 272.105,
+        "TerritoryId": 402
+    },
+    {
+        "BnpcName": 4360,
+        "X": 372.105,
+        "Y": 0,
+        "Z": 772.105,
+        "TerritoryId": 402
+    },
+    {
+        "BnpcName": 4361,
+        "X": 272.105,
+        "Y": 0,
+        "Z": -327.895,
+        "TerritoryId": 402
+    },
+    {
+        "BnpcName": 4361,
+        "X": 272.105,
+        "Y": 0,
+        "Z": -577.895,
+        "TerritoryId": 402
+    },
+    {
+        "BnpcName": 4361,
+        "X": 572.105,
+        "Y": 0,
+        "Z": -477.895,
+        "TerritoryId": 402
+    },
+    {
+        "BnpcName": 4361,
+        "X": 222.105,
+        "Y": 0,
+        "Z": -577.895,
+        "TerritoryId": 402
+    },
+    {
+        "BnpcName": 4361,
+        "X": 522.105,
+        "Y": 0,
+        "Z": -827.895,
+        "TerritoryId": 402
+    },
+    {
+        "BnpcName": 4361,
+        "X": 772.105,
+        "Y": 0,
+        "Z": -777.895,
+        "TerritoryId": 402
+    },
+    {
+        "BnpcName": 4361,
+        "X": -477.895,
+        "Y": 0,
+        "Z": 772.105,
+        "TerritoryId": 402
+    },
+    {
+        "BnpcName": 4361,
+        "X": -727.895,
+        "Y": 0,
+        "Z": 572.105,
+        "TerritoryId": 402
+    },
+    {
+        "BnpcName": 4361,
+        "X": -577.895,
+        "Y": 0,
+        "Z": 372.105,
+        "TerritoryId": 402
+    },
+    {
+        "BnpcName": 4361,
+        "X": -277.895,
+        "Y": 0,
+        "Z": 322.105,
+        "TerritoryId": 402
+    },
+    {
+        "BnpcName": 4361,
+        "X": -627.895,
+        "Y": 0,
+        "Z": 222.105,
+        "TerritoryId": 402
+    },
+    {
+        "BnpcName": 4361,
+        "X": -377.895,
+        "Y": 0,
+        "Z": 322.105,
+        "TerritoryId": 402
+    },
+    {
+        "BnpcName": 6008,
+        "X": 576,
+        "Y": 0,
+        "Z": 576,
+        "TerritoryId": 612
+    },
+    {
+        "BnpcName": 6008,
+        "X": 376,
+        "Y": 0,
+        "Z": 426,
+        "TerritoryId": 612
+    },
+    {
+        "BnpcName": 6008,
+        "X": 176,
+        "Y": 0,
+        "Z": 526,
+        "TerritoryId": 612
+    },
+    {
+        "BnpcName": 6008,
+        "X": 176,
+        "Y": 0,
+        "Z": 326,
+        "TerritoryId": 612
+    },
+    {
+        "BnpcName": 6008,
+        "X": 326,
+        "Y": 0,
+        "Z": 76,
+        "TerritoryId": 612
+    },
+    {
+        "BnpcName": 6008,
+        "X": 576,
+        "Y": 0,
+        "Z": -74,
+        "TerritoryId": 612
+    },
+    {
+        "BnpcName": 6008,
+        "X": 626,
+        "Y": 0,
+        "Z": -224,
+        "TerritoryId": 612
+    },
+    {
+        "BnpcName": 6009,
+        "X": -574,
+        "Y": 0,
+        "Z": -374,
+        "TerritoryId": 612
+    },
+    {
+        "BnpcName": 6009,
+        "X": -374,
+        "Y": 0,
+        "Z": -474,
+        "TerritoryId": 612
+    },
+    {
+        "BnpcName": 6009,
+        "X": -224,
+        "Y": 0,
+        "Z": -474,
+        "TerritoryId": 612
+    },
+    {
+        "BnpcName": 6009,
+        "X": -174,
+        "Y": 0,
+        "Z": -674,
+        "TerritoryId": 612
+    },
+    {
+        "BnpcName": 6009,
+        "X": -24,
+        "Y": 0,
+        "Z": -574,
+        "TerritoryId": 612
+    },
+    {
+        "BnpcName": 6009,
+        "X": 176,
+        "Y": 0,
+        "Z": -524,
+        "TerritoryId": 612
+    },
+    {
+        "BnpcName": 6009,
+        "X": 126,
+        "Y": 0,
+        "Z": -174,
+        "TerritoryId": 612
+    },
+    {
+        "BnpcName": 6009,
+        "X": -224,
+        "Y": 0,
+        "Z": -24,
+        "TerritoryId": 612
+    },
+    {
+        "BnpcName": 6009,
+        "X": -274,
+        "Y": 0,
+        "Z": 76,
+        "TerritoryId": 612
+    },
+    {
+        "BnpcName": 6009,
+        "X": -324,
+        "Y": 0,
+        "Z": 226,
+        "TerritoryId": 612
+    },
+    {
+        "BnpcName": 6009,
+        "X": -674,
+        "Y": 0,
+        "Z": 426,
+        "TerritoryId": 612
+    },
+    {
+        "BnpcName": 6009,
+        "X": -674,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 612
+    },
+    {
+        "BnpcName": 6009,
+        "X": -474,
+        "Y": 0,
+        "Z": -174,
+        "TerritoryId": 612
+    },
+    {
+        "BnpcName": 6010,
+        "X": -824,
+        "Y": 0,
+        "Z": 676,
+        "TerritoryId": 620
+    },
+    {
+        "BnpcName": 6010,
+        "X": -524,
+        "Y": 0,
+        "Z": 526,
+        "TerritoryId": 620
+    },
+    {
+        "BnpcName": 6010,
+        "X": -724,
+        "Y": 0,
+        "Z": 176,
+        "TerritoryId": 620
+    },
+    {
+        "BnpcName": 6010,
+        "X": -474,
+        "Y": 0,
+        "Z": 326,
+        "TerritoryId": 620
+    },
+    {
+        "BnpcName": 6010,
+        "X": -224,
+        "Y": 0,
+        "Z": 276,
+        "TerritoryId": 620
+    },
+    {
+        "BnpcName": 6010,
+        "X": -274,
+        "Y": 0,
+        "Z": 26,
+        "TerritoryId": 620
+    },
+    {
+        "BnpcName": 6010,
+        "X": 76,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 620
+    },
+    {
+        "BnpcName": 6010,
+        "X": 276,
+        "Y": 0,
+        "Z": 376,
+        "TerritoryId": 620
+    },
+    {
+        "BnpcName": 6010,
+        "X": 76,
+        "Y": 0,
+        "Z": 726,
+        "TerritoryId": 620
+    },
+    {
+        "BnpcName": 6011,
+        "X": -524,
+        "Y": 0,
+        "Z": -724,
+        "TerritoryId": 620
+    },
+    {
+        "BnpcName": 6011,
+        "X": -624,
+        "Y": 0,
+        "Z": -524,
+        "TerritoryId": 620
+    },
+    {
+        "BnpcName": 6011,
+        "X": -774,
+        "Y": 0,
+        "Z": -374,
+        "TerritoryId": 620
+    },
+    {
+        "BnpcName": 6011,
+        "X": 176,
+        "Y": 0,
+        "Z": -674,
+        "TerritoryId": 620
+    },
+    {
+        "BnpcName": 6011,
+        "X": 526,
+        "Y": 0,
+        "Z": -724,
+        "TerritoryId": 620
+    },
+    {
+        "BnpcName": 6011,
+        "X": 726,
+        "Y": 0,
+        "Z": -474,
+        "TerritoryId": 620
+    },
+    {
+        "BnpcName": 6011,
+        "X": 226,
+        "Y": 0,
+        "Z": -524,
+        "TerritoryId": 620
+    },
+    {
+        "BnpcName": 6011,
+        "X": 76,
+        "Y": 0,
+        "Z": -374,
+        "TerritoryId": 620
+    },
+    {
+        "BnpcName": 6011,
+        "X": 176,
+        "Y": 0,
+        "Z": -74,
+        "TerritoryId": 620
+    },
+    {
+        "BnpcName": 6012,
+        "X": 426,
+        "Y": 0,
+        "Z": 726,
+        "TerritoryId": 621
+    },
+    {
+        "BnpcName": 6012,
+        "X": 276,
+        "Y": 0,
+        "Z": 626,
+        "TerritoryId": 621
+    },
+    {
+        "BnpcName": 6012,
+        "X": -574,
+        "Y": 0,
+        "Z": 626,
+        "TerritoryId": 621
+    },
+    {
+        "BnpcName": 6012,
+        "X": -774,
+        "Y": 0,
+        "Z": 476,
+        "TerritoryId": 621
+    },
+    {
+        "BnpcName": 6012,
+        "X": -874,
+        "Y": 0,
+        "Z": 326,
+        "TerritoryId": 621
+    },
+    {
+        "BnpcName": 6012,
+        "X": -724,
+        "Y": 0,
+        "Z": 226,
+        "TerritoryId": 621
+    },
+    {
+        "BnpcName": 6012,
+        "X": -724,
+        "Y": 0,
+        "Z": -424,
+        "TerritoryId": 621
+    },
+    {
+        "BnpcName": 6012,
+        "X": -774,
+        "Y": 0,
+        "Z": -674,
+        "TerritoryId": 621
+    },
+    {
+        "BnpcName": 6012,
+        "X": -174,
+        "Y": 0,
+        "Z": -724,
+        "TerritoryId": 621
+    },
+    {
+        "BnpcName": 6012,
+        "X": 26,
+        "Y": 0,
+        "Z": -574,
+        "TerritoryId": 621
+    },
+    {
+        "BnpcName": 6012,
+        "X": 326,
+        "Y": 0,
+        "Z": -724,
+        "TerritoryId": 621
+    },
+    {
+        "BnpcName": 6012,
+        "X": 676,
+        "Y": 0,
+        "Z": -524,
+        "TerritoryId": 621
+    },
+    {
+        "BnpcName": 6012,
+        "X": 76,
+        "Y": 0,
+        "Z": -524,
+        "TerritoryId": 621
+    },
+    {
+        "BnpcName": 6013,
+        "X": -374,
+        "Y": 0,
+        "Z": -74,
+        "TerritoryId": 621
+    },
+    {
+        "BnpcName": 6013,
+        "X": -324,
+        "Y": 0,
+        "Z": -24,
+        "TerritoryId": 621
+    },
+    {
+        "BnpcName": 6013,
+        "X": 176,
+        "Y": 0,
+        "Z": -224,
+        "TerritoryId": 621
+    },
+    {
+        "BnpcName": 6013,
+        "X": -174,
+        "Y": 0,
+        "Z": 226,
+        "TerritoryId": 621
+    },
+    {
+        "BnpcName": 6013,
+        "X": 126,
+        "Y": 0,
+        "Z": 226,
+        "TerritoryId": 621
+    },
+    {
+        "BnpcName": 6013,
+        "X": -124,
+        "Y": 0,
+        "Z": 526,
+        "TerritoryId": 621
+    },
+    {
+        "BnpcName": 6013,
+        "X": 176,
+        "Y": 0,
+        "Z": 576,
+        "TerritoryId": 621
+    },
+    {
+        "BnpcName": 6002,
+        "X": 526,
+        "Y": 0,
+        "Z": 776,
+        "TerritoryId": 613
+    },
+    {
+        "BnpcName": 6002,
+        "X": 126,
+        "Y": 0,
+        "Z": 526,
+        "TerritoryId": 613
+    },
+    {
+        "BnpcName": 6002,
+        "X": 276,
+        "Y": 0,
+        "Z": 426,
+        "TerritoryId": 613
+    },
+    {
+        "BnpcName": 6002,
+        "X": 126,
+        "Y": 0,
+        "Z": 226,
+        "TerritoryId": 613
+    },
+    {
+        "BnpcName": 6002,
+        "X": -374,
+        "Y": 0,
+        "Z": -374,
+        "TerritoryId": 613
+    },
+    {
+        "BnpcName": 6002,
+        "X": -874,
+        "Y": 0,
+        "Z": 26,
+        "TerritoryId": 613
+    },
+    {
+        "BnpcName": 6002,
+        "X": -774,
+        "Y": 0,
+        "Z": 376,
+        "TerritoryId": 613
+    },
+    {
+        "BnpcName": 6003,
+        "X": -724,
+        "Y": 0,
+        "Z": -824,
+        "TerritoryId": 613
+    },
+    {
+        "BnpcName": 6003,
+        "X": -224,
+        "Y": 0,
+        "Z": -524,
+        "TerritoryId": 613
+    },
+    {
+        "BnpcName": 6003,
+        "X": -174,
+        "Y": 0,
+        "Z": -674,
+        "TerritoryId": 613
+    },
+    {
+        "BnpcName": 6003,
+        "X": 226,
+        "Y": 0,
+        "Z": -774,
+        "TerritoryId": 613
+    },
+    {
+        "BnpcName": 6003,
+        "X": 726,
+        "Y": 0,
+        "Z": -174,
+        "TerritoryId": 613
+    },
+    {
+        "BnpcName": 6003,
+        "X": 626,
+        "Y": 0,
+        "Z": -24,
+        "TerritoryId": 613
+    },
+    {
+        "BnpcName": 6003,
+        "X": 526,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 613
+    },
+    {
+        "BnpcName": 6004,
+        "X": 526,
+        "Y": 0,
+        "Z": -174,
+        "TerritoryId": 614
+    },
+    {
+        "BnpcName": 6004,
+        "X": 126,
+        "Y": 0,
+        "Z": 26,
+        "TerritoryId": 614
+    },
+    {
+        "BnpcName": 6004,
+        "X": 76,
+        "Y": 0,
+        "Z": 276,
+        "TerritoryId": 614
+    },
+    {
+        "BnpcName": 6004,
+        "X": 626,
+        "Y": 0,
+        "Z": 226,
+        "TerritoryId": 614
+    },
+    {
+        "BnpcName": 6004,
+        "X": 426,
+        "Y": 0,
+        "Z": 626,
+        "TerritoryId": 614
+    },
+    {
+        "BnpcName": 6004,
+        "X": -224,
+        "Y": 0,
+        "Z": 626,
+        "TerritoryId": 614
+    },
+    {
+        "BnpcName": 6004,
+        "X": -474,
+        "Y": 0,
+        "Z": 426,
+        "TerritoryId": 614
+    },
+    {
+        "BnpcName": 6005,
+        "X": 326,
+        "Y": 0,
+        "Z": -524,
+        "TerritoryId": 614
+    },
+    {
+        "BnpcName": 6005,
+        "X": 276,
+        "Y": 0,
+        "Z": -574,
+        "TerritoryId": 614
+    },
+    {
+        "BnpcName": 6005,
+        "X": 76,
+        "Y": 0,
+        "Z": -524,
+        "TerritoryId": 614
+    },
+    {
+        "BnpcName": 6005,
+        "X": -24,
+        "Y": 0,
+        "Z": -624,
+        "TerritoryId": 614
+    },
+    {
+        "BnpcName": 6005,
+        "X": -174,
+        "Y": 0,
+        "Z": -574,
+        "TerritoryId": 614
+    },
+    {
+        "BnpcName": 6005,
+        "X": -224,
+        "Y": 0,
+        "Z": -374,
+        "TerritoryId": 614
+    },
+    {
+        "BnpcName": 6005,
+        "X": -174,
+        "Y": 0,
+        "Z": -274,
+        "TerritoryId": 614
+    },
+    {
+        "BnpcName": 6006,
+        "X": 126,
+        "Y": 0,
+        "Z": 426,
+        "TerritoryId": 622
+    },
+    {
+        "BnpcName": 6006,
+        "X": 226,
+        "Y": 0,
+        "Z": 626,
+        "TerritoryId": 622
+    },
+    {
+        "BnpcName": 6006,
+        "X": -24,
+        "Y": 0,
+        "Z": 626,
+        "TerritoryId": 622
+    },
+    {
+        "BnpcName": 6006,
+        "X": -224,
+        "Y": 0,
+        "Z": 576,
+        "TerritoryId": 622
+    },
+    {
+        "BnpcName": 6006,
+        "X": -374,
+        "Y": 0,
+        "Z": 426,
+        "TerritoryId": 622
+    },
+    {
+        "BnpcName": 6006,
+        "X": -324,
+        "Y": 0,
+        "Z": 226,
+        "TerritoryId": 622
+    },
+    {
+        "BnpcName": 6006,
+        "X": -524,
+        "Y": 0,
+        "Z": 326,
+        "TerritoryId": 622
+    },
+    {
+        "BnpcName": 6006,
+        "X": -624,
+        "Y": 0,
+        "Z": 176,
+        "TerritoryId": 622
+    },
+    {
+        "BnpcName": 6006,
+        "X": -624,
+        "Y": 0,
+        "Z": 26,
+        "TerritoryId": 622
+    },
+    {
+        "BnpcName": 6007,
+        "X": 326,
+        "Y": 0,
+        "Z": 226,
+        "TerritoryId": 622
+    },
+    {
+        "BnpcName": 6007,
+        "X": 326,
+        "Y": 0,
+        "Z": -174,
+        "TerritoryId": 622
+    },
+    {
+        "BnpcName": 6007,
+        "X": 26,
+        "Y": 0,
+        "Z": -274,
+        "TerritoryId": 622
+    },
+    {
+        "BnpcName": 6007,
+        "X": -224,
+        "Y": 0,
+        "Z": -174,
+        "TerritoryId": 622
+    },
+    {
+        "BnpcName": 6007,
+        "X": -474,
+        "Y": 0,
+        "Z": -224,
+        "TerritoryId": 622
+    },
+    {
+        "BnpcName": 6007,
+        "X": -424,
+        "Y": 0,
+        "Z": -624,
+        "TerritoryId": 622
+    },
+    {
+        "BnpcName": 6007,
+        "X": -124,
+        "Y": 0,
+        "Z": -574,
+        "TerritoryId": 622
+    },
+    {
+        "BnpcName": 6007,
+        "X": 276,
+        "Y": 0,
+        "Z": -674,
+        "TerritoryId": 622
+    },
+    {
+        "BnpcName": 6007,
+        "X": 676,
+        "Y": 0,
+        "Z": -324,
+        "TerritoryId": 622
+    },
+    {
+        "BnpcName": 8908,
+        "X": 76,
+        "Y": 0,
+        "Z": -474,
+        "TerritoryId": 813
+    },
+    {
+        "BnpcName": 8908,
+        "X": -474,
+        "Y": 0,
+        "Z": -224,
+        "TerritoryId": 813
+    },
+    {
+        "BnpcName": 8908,
+        "X": -524,
+        "Y": 0,
+        "Z": -474,
+        "TerritoryId": 813
+    },
+    {
+        "BnpcName": 8908,
+        "X": -374,
+        "Y": 0,
+        "Z": 176,
+        "TerritoryId": 813
+    },
+    {
+        "BnpcName": 8908,
+        "X": -174,
+        "Y": 0,
+        "Z": 76,
+        "TerritoryId": 813
+    },
+    {
+        "BnpcName": 8909,
+        "X": 176,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 813
+    },
+    {
+        "BnpcName": 8909,
+        "X": 426,
+        "Y": 0,
+        "Z": 26,
+        "TerritoryId": 813
+    },
+    {
+        "BnpcName": 8909,
+        "X": 226,
+        "Y": 0,
+        "Z": 726,
+        "TerritoryId": 813
+    },
+    {
+        "BnpcName": 8909,
+        "X": 276,
+        "Y": 0,
+        "Z": 426,
+        "TerritoryId": 813
+    },
+    {
+        "BnpcName": 8909,
+        "X": 726,
+        "Y": 0,
+        "Z": 276,
+        "TerritoryId": 813
+    },
+    {
+        "BnpcName": 8909,
+        "X": 726,
+        "Y": 0,
+        "Z": -474,
+        "TerritoryId": 813
+    },
+    {
+        "BnpcName": 8909,
+        "X": 76,
+        "Y": 0,
+        "Z": 426,
+        "TerritoryId": 813
+    },
+    {
+        "BnpcName": 8909,
+        "X": 676,
+        "Y": 0,
+        "Z": 526,
+        "TerritoryId": 813
+    },
+    {
+        "BnpcName": 8909,
+        "X": 676,
+        "Y": 0,
+        "Z": -274,
+        "TerritoryId": 813
+    },
+    {
+        "BnpcName": 8913,
+        "X": -224,
+        "Y": 0,
+        "Z": -714,
+        "TerritoryId": 814
+    },
+    {
+        "BnpcName": 8913,
+        "X": -99,
+        "Y": 0,
+        "Z": -549,
+        "TerritoryId": 814
+    },
+    {
+        "BnpcName": 8913,
+        "X": -9,
+        "Y": 0,
+        "Z": 36,
+        "TerritoryId": 814
+    },
+    {
+        "BnpcName": 8913,
+        "X": 36,
+        "Y": 0,
+        "Z": -389,
+        "TerritoryId": 814
+    },
+    {
+        "BnpcName": 8913,
+        "X": 51,
+        "Y": 0,
+        "Z": -199,
+        "TerritoryId": 814
+    },
+    {
+        "BnpcName": 8913,
+        "X": -514,
+        "Y": 0,
+        "Z": -154,
+        "TerritoryId": 814
+    },
+    {
+        "BnpcName": 8913,
+        "X": 261,
+        "Y": 0,
+        "Z": -129,
+        "TerritoryId": 814
+    },
+    {
+        "BnpcName": 8913,
+        "X": 186,
+        "Y": 0,
+        "Z": -504,
+        "TerritoryId": 814
+    },
+    {
+        "BnpcName": 8913,
+        "X": -324,
+        "Y": 0,
+        "Z": -289,
+        "TerritoryId": 814
+    },
+    {
+        "BnpcName": 8914,
+        "X": -319,
+        "Y": 0,
+        "Z": 136,
+        "TerritoryId": 814
+    },
+    {
+        "BnpcName": 8914,
+        "X": -34,
+        "Y": 0,
+        "Z": 486,
+        "TerritoryId": 814
+    },
+    {
+        "BnpcName": 8914,
+        "X": 411,
+        "Y": 0,
+        "Z": 436,
+        "TerritoryId": 814
+    },
+    {
+        "BnpcName": 8914,
+        "X": 161,
+        "Y": 0,
+        "Z": 411,
+        "TerritoryId": 814
+    },
+    {
+        "BnpcName": 8914,
+        "X": 241,
+        "Y": 0,
+        "Z": 136,
+        "TerritoryId": 814
+    },
+    {
+        "BnpcName": 8914,
+        "X": 646,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 814
+    },
+    {
+        "BnpcName": 8914,
+        "X": -599,
+        "Y": 0,
+        "Z": 191,
+        "TerritoryId": 814
+    },
+    {
+        "BnpcName": 8903,
+        "X": -474,
+        "Y": 0,
+        "Z": -174,
+        "TerritoryId": 815
+    },
+    {
+        "BnpcName": 8903,
+        "X": -114,
+        "Y": 0,
+        "Z": -284,
+        "TerritoryId": 815
+    },
+    {
+        "BnpcName": 8903,
+        "X": 51,
+        "Y": 0,
+        "Z": -574,
+        "TerritoryId": 815
+    },
+    {
+        "BnpcName": 8903,
+        "X": -559,
+        "Y": 0,
+        "Z": -464,
+        "TerritoryId": 815
+    },
+    {
+        "BnpcName": 8903,
+        "X": -239,
+        "Y": 0,
+        "Z": -564,
+        "TerritoryId": 815
+    },
+    {
+        "BnpcName": 8903,
+        "X": -99,
+        "Y": 0,
+        "Z": 186,
+        "TerritoryId": 815
+    },
+    {
+        "BnpcName": 8903,
+        "X": -274,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 815
+    },
+    {
+        "BnpcName": 8903,
+        "X": -99,
+        "Y": 0,
+        "Z": 376,
+        "TerritoryId": 815
+    },
+    {
+        "BnpcName": 8903,
+        "X": -224,
+        "Y": 0,
+        "Z": 476,
+        "TerritoryId": 815
+    },
+    {
+        "BnpcName": 8904,
+        "X": 356,
+        "Y": 0,
+        "Z": -459,
+        "TerritoryId": 815
+    },
+    {
+        "BnpcName": 8904,
+        "X": 446,
+        "Y": 0,
+        "Z": 671,
+        "TerritoryId": 815
+    },
+    {
+        "BnpcName": 8904,
+        "X": 566,
+        "Y": 0,
+        "Z": 611,
+        "TerritoryId": 815
+    },
+    {
+        "BnpcName": 8904,
+        "X": 596,
+        "Y": 0,
+        "Z": 31,
+        "TerritoryId": 815
+    },
+    {
+        "BnpcName": 8904,
+        "X": 86,
+        "Y": 0,
+        "Z": 406,
+        "TerritoryId": 815
+    },
+    {
+        "BnpcName": 8904,
+        "X": 446,
+        "Y": 0,
+        "Z": -389,
+        "TerritoryId": 815
+    },
+    {
+        "BnpcName": 8904,
+        "X": 341,
+        "Y": 0,
+        "Z": 216,
+        "TerritoryId": 815
+    },
+    {
+        "BnpcName": 8904,
+        "X": -89,
+        "Y": 0,
+        "Z": 751,
+        "TerritoryId": 815
+    },
+    {
+        "BnpcName": 8904,
+        "X": 351,
+        "Y": 0,
+        "Z": 226,
+        "TerritoryId": 815
+    },
+    {
+        "BnpcName": 8656,
+        "X": -699,
+        "Y": 0,
+        "Z": 61,
+        "TerritoryId": 816
+    },
+    {
+        "BnpcName": 8656,
+        "X": -574,
+        "Y": 0,
+        "Z": -49,
+        "TerritoryId": 816
+    },
+    {
+        "BnpcName": 8656,
+        "X": -524,
+        "Y": 0,
+        "Z": -294,
+        "TerritoryId": 816
+    },
+    {
+        "BnpcName": 8656,
+        "X": -124,
+        "Y": 0,
+        "Z": 276,
+        "TerritoryId": 816
+    },
+    {
+        "BnpcName": 8656,
+        "X": 76,
+        "Y": 0,
+        "Z": 576,
+        "TerritoryId": 816
+    },
+    {
+        "BnpcName": 8656,
+        "X": 171,
+        "Y": 0,
+        "Z": 786,
+        "TerritoryId": 816
+    },
+    {
+        "BnpcName": 8656,
+        "X": -409,
+        "Y": 0,
+        "Z": 636,
+        "TerritoryId": 816
+    },
+    {
+        "BnpcName": 8656,
+        "X": -674,
+        "Y": 0,
+        "Z": 266,
+        "TerritoryId": 816
+    },
+    {
+        "BnpcName": 8656,
+        "X": -99,
+        "Y": 0,
+        "Z": 686,
+        "TerritoryId": 816
+    },
+    {
+        "BnpcName": 8656,
+        "X": 26,
+        "Y": 0,
+        "Z": 376,
+        "TerritoryId": 816
+    },
+    {
+        "BnpcName": 8656,
+        "X": -574,
+        "Y": 0,
+        "Z": 466,
+        "TerritoryId": 816
+    },
+    {
+        "BnpcName": 8656,
+        "X": 81,
+        "Y": 0,
+        "Z": 371,
+        "TerritoryId": 816
+    },
+    {
+        "BnpcName": 8657,
+        "X": -84,
+        "Y": 0,
+        "Z": -634,
+        "TerritoryId": 816
+    },
+    {
+        "BnpcName": 8657,
+        "X": -59,
+        "Y": 0,
+        "Z": -664,
+        "TerritoryId": 816
+    },
+    {
+        "BnpcName": 8657,
+        "X": 191,
+        "Y": 0,
+        "Z": -704,
+        "TerritoryId": 816
+    },
+    {
+        "BnpcName": 8657,
+        "X": 296,
+        "Y": 0,
+        "Z": -139,
+        "TerritoryId": 816
+    },
+    {
+        "BnpcName": 8657,
+        "X": 376,
+        "Y": 0,
+        "Z": -824,
+        "TerritoryId": 816
+    },
+    {
+        "BnpcName": 8657,
+        "X": 526,
+        "Y": 0,
+        "Z": -379,
+        "TerritoryId": 816
+    },
+    {
+        "BnpcName": 8657,
+        "X": 626,
+        "Y": 0,
+        "Z": -754,
+        "TerritoryId": 816
+    },
+    {
+        "BnpcName": 8893,
+        "X": -324,
+        "Y": 0,
+        "Z": 431,
+        "TerritoryId": 817
+    },
+    {
+        "BnpcName": 8893,
+        "X": -199,
+        "Y": 0,
+        "Z": 676,
+        "TerritoryId": 817
+    },
+    {
+        "BnpcName": 8893,
+        "X": -224,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 817
+    },
+    {
+        "BnpcName": 8893,
+        "X": -649,
+        "Y": 0,
+        "Z": 676,
+        "TerritoryId": 817
+    },
+    {
+        "BnpcName": 8893,
+        "X": -349,
+        "Y": 0,
+        "Z": 41,
+        "TerritoryId": 817
+    },
+    {
+        "BnpcName": 8893,
+        "X": -564,
+        "Y": 0,
+        "Z": 136,
+        "TerritoryId": 817
+    },
+    {
+        "BnpcName": 8893,
+        "X": -599,
+        "Y": 0,
+        "Z": -144,
+        "TerritoryId": 817
+    },
+    {
+        "BnpcName": 8893,
+        "X": -449,
+        "Y": 0,
+        "Z": 711,
+        "TerritoryId": 817
+    },
+    {
+        "BnpcName": 8894,
+        "X": 231,
+        "Y": 0,
+        "Z": 131,
+        "TerritoryId": 817
+    },
+    {
+        "BnpcName": 8894,
+        "X": 176,
+        "Y": 0,
+        "Z": 426,
+        "TerritoryId": 817
+    },
+    {
+        "BnpcName": 8894,
+        "X": 396,
+        "Y": 0,
+        "Z": 221,
+        "TerritoryId": 817
+    },
+    {
+        "BnpcName": 8894,
+        "X": 576,
+        "Y": 0,
+        "Z": 76,
+        "TerritoryId": 817
+    },
+    {
+        "BnpcName": 8894,
+        "X": 241,
+        "Y": 0,
+        "Z": -329,
+        "TerritoryId": 817
+    },
+    {
+        "BnpcName": 8894,
+        "X": 26,
+        "Y": 0,
+        "Z": -574,
+        "TerritoryId": 817
+    },
+    {
+        "BnpcName": 8894,
+        "X": 26,
+        "Y": 0,
+        "Z": -409,
+        "TerritoryId": 817
+    },
+    {
+        "BnpcName": 8898,
+        "X": -649,
+        "Y": 0,
+        "Z": -644,
+        "TerritoryId": 818
+    },
+    {
+        "BnpcName": 8898,
+        "X": -524,
+        "Y": 0,
+        "Z": -824,
+        "TerritoryId": 818
+    },
+    {
+        "BnpcName": 8898,
+        "X": -399,
+        "Y": 0,
+        "Z": -214,
+        "TerritoryId": 818
+    },
+    {
+        "BnpcName": 8898,
+        "X": -294,
+        "Y": 0,
+        "Z": -79,
+        "TerritoryId": 818
+    },
+    {
+        "BnpcName": 8898,
+        "X": -24,
+        "Y": 0,
+        "Z": -699,
+        "TerritoryId": 818
+    },
+    {
+        "BnpcName": 8898,
+        "X": 181,
+        "Y": 0,
+        "Z": -439,
+        "TerritoryId": 818
+    },
+    {
+        "BnpcName": 8898,
+        "X": -174,
+        "Y": 0,
+        "Z": -424,
+        "TerritoryId": 818
+    },
+    {
+        "BnpcName": 8898,
+        "X": -284,
+        "Y": 0,
+        "Z": -524,
+        "TerritoryId": 818
+    },
+    {
+        "BnpcName": 8898,
+        "X": -224,
+        "Y": 0,
+        "Z": -424,
+        "TerritoryId": 818
+    },
+    {
+        "BnpcName": 8899,
+        "X": 166,
+        "Y": 0,
+        "Z": 171,
+        "TerritoryId": 818
+    },
+    {
+        "BnpcName": 8899,
+        "X": 361,
+        "Y": 0,
+        "Z": 66,
+        "TerritoryId": 818
+    },
+    {
+        "BnpcName": 8899,
+        "X": 366,
+        "Y": 0,
+        "Z": -669,
+        "TerritoryId": 818
+    },
+    {
+        "BnpcName": 8899,
+        "X": 386,
+        "Y": 0,
+        "Z": 61,
+        "TerritoryId": 818
+    },
+    {
+        "BnpcName": 8899,
+        "X": 801,
+        "Y": 0,
+        "Z": -274,
+        "TerritoryId": 818
+    },
+    {
+        "BnpcName": 8899,
+        "X": 471,
+        "Y": 0,
+        "Z": -899,
+        "TerritoryId": 818
+    },
+    {
+        "BnpcName": 8899,
+        "X": 616,
+        "Y": 0,
+        "Z": -4,
+        "TerritoryId": 818
+    },
+    {
+        "BnpcName": 8899,
+        "X": 741,
+        "Y": 0,
+        "Z": -89,
+        "TerritoryId": 818
+    },
+    {
+        "BnpcName": 8899,
+        "X": 756,
+        "Y": 0,
+        "Z": -514,
+        "TerritoryId": 818
+    },
+    {
+        "BnpcName": 10635,
+        "X": -214,
+        "Y": 0,
+        "Z": -629,
+        "TerritoryId": 956
+    },
+    {
+        "BnpcName": 10635,
+        "X": 21,
+        "Y": 0,
+        "Z": -649,
+        "TerritoryId": 956
+    },
+    {
+        "BnpcName": 10635,
+        "X": 426,
+        "Y": 0,
+        "Z": -669,
+        "TerritoryId": 956
+    },
+    {
+        "BnpcName": 10635,
+        "X": 626,
+        "Y": 0,
+        "Z": -394,
+        "TerritoryId": 956
+    },
+    {
+        "BnpcName": 10635,
+        "X": 571,
+        "Y": 0,
+        "Z": 216,
+        "TerritoryId": 956
+    },
+    {
+        "BnpcName": 10636,
+        "X": -779,
+        "Y": 0,
+        "Z": 581,
+        "TerritoryId": 956
+    },
+    {
+        "BnpcName": 10636,
+        "X": -469,
+        "Y": 0,
+        "Z": 696,
+        "TerritoryId": 956
+    },
+    {
+        "BnpcName": 10636,
+        "X": -544,
+        "Y": 0,
+        "Z": -134,
+        "TerritoryId": 956
+    },
+    {
+        "BnpcName": 10636,
+        "X": -254,
+        "Y": 0,
+        "Z": -224,
+        "TerritoryId": 956
+    },
+    {
+        "BnpcName": 10636,
+        "X": -89,
+        "Y": 0,
+        "Z": 846,
+        "TerritoryId": 956
+    },
+    {
+        "BnpcName": 10636,
+        "X": 171,
+        "Y": 0,
+        "Z": 196,
+        "TerritoryId": 956
+    },
+    {
+        "BnpcName": 10637,
+        "X": -749,
+        "Y": 0,
+        "Z": -424,
+        "TerritoryId": 957
+    },
+    {
+        "BnpcName": 10637,
+        "X": -344,
+        "Y": 0,
+        "Z": -489,
+        "TerritoryId": 957
+    },
+    {
+        "BnpcName": 10637,
+        "X": -204,
+        "Y": 0,
+        "Z": -264,
+        "TerritoryId": 957
+    },
+    {
+        "BnpcName": 10637,
+        "X": -164,
+        "Y": 0,
+        "Z": -489,
+        "TerritoryId": 957
+    },
+    {
+        "BnpcName": 10637,
+        "X": 406,
+        "Y": 0,
+        "Z": -414,
+        "TerritoryId": 957
+    },
+    {
+        "BnpcName": 10638,
+        "X": -159,
+        "Y": 0,
+        "Z": 101,
+        "TerritoryId": 957
+    },
+    {
+        "BnpcName": 10638,
+        "X": -79,
+        "Y": 0,
+        "Z": 476,
+        "TerritoryId": 957
+    },
+    {
+        "BnpcName": 10638,
+        "X": 246,
+        "Y": 0,
+        "Z": -44,
+        "TerritoryId": 957
+    },
+    {
+        "BnpcName": 10638,
+        "X": 301,
+        "Y": 0,
+        "Z": 181,
+        "TerritoryId": 957
+    },
+    {
+        "BnpcName": 10638,
+        "X": 566,
+        "Y": 0,
+        "Z": -49,
+        "TerritoryId": 957
+    },
+    {
+        "BnpcName": 10639,
+        "X": -599,
+        "Y": 0,
+        "Z": -499,
+        "TerritoryId": 958
+    },
+    {
+        "BnpcName": 10639,
+        "X": -494,
+        "Y": 0,
+        "Z": -429,
+        "TerritoryId": 958
+    },
+    {
+        "BnpcName": 10639,
+        "X": -474,
+        "Y": 0,
+        "Z": -244,
+        "TerritoryId": 958
+    },
+    {
+        "BnpcName": 10639,
+        "X": -294,
+        "Y": 0,
+        "Z": -84,
+        "TerritoryId": 958
+    },
+    {
+        "BnpcName": 10639,
+        "X": 271,
+        "Y": 0,
+        "Z": -674,
+        "TerritoryId": 958
+    },
+    {
+        "BnpcName": 10640,
+        "X": 76,
+        "Y": 0,
+        "Z": 211,
+        "TerritoryId": 958
+    },
+    {
+        "BnpcName": 10640,
+        "X": 301,
+        "Y": 0,
+        "Z": 616,
+        "TerritoryId": 958
+    },
+    {
+        "BnpcName": 10640,
+        "X": 376,
+        "Y": 0,
+        "Z": -34,
+        "TerritoryId": 958
+    },
+    {
+        "BnpcName": 10640,
+        "X": 516,
+        "Y": 0,
+        "Z": 566,
+        "TerritoryId": 958
+    },
+    {
+        "BnpcName": 10640,
+        "X": 581,
+        "Y": 0,
+        "Z": 36,
+        "TerritoryId": 958
+    },
+    {
+        "BnpcName": 10641,
+        "X": -554,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 959
+    },
+    {
+        "BnpcName": 10641,
+        "X": -204,
+        "Y": 0,
+        "Z": 181,
+        "TerritoryId": 959
+    },
+    {
+        "BnpcName": 10641,
+        "X": -169,
+        "Y": 0,
+        "Z": -4,
+        "TerritoryId": 959
+    },
+    {
+        "BnpcName": 10641,
+        "X": 126,
+        "Y": 0,
+        "Z": 126,
+        "TerritoryId": 959
+    },
+    {
+        "BnpcName": 10641,
+        "X": 326,
+        "Y": 0,
+        "Z": 266,
+        "TerritoryId": 959
+    },
+    {
+        "BnpcName": 10642,
+        "X": -254,
+        "Y": 0,
+        "Z": 361,
+        "TerritoryId": 959
+    },
+    {
+        "BnpcName": 10642,
+        "X": -9,
+        "Y": 0,
+        "Z": 661,
+        "TerritoryId": 959
+    },
+    {
+        "BnpcName": 10642,
+        "X": 146,
+        "Y": 0,
+        "Z": 596,
+        "TerritoryId": 959
+    },
+    {
+        "BnpcName": 10642,
+        "X": 436,
+        "Y": 0,
+        "Z": 411,
+        "TerritoryId": 959
+    },
+    {
+        "BnpcName": 10642,
+        "X": 751,
+        "Y": 0,
+        "Z": 271,
+        "TerritoryId": 959
+    },
+    {
+        "BnpcName": 10643,
+        "X": -429,
+        "Y": 0,
+        "Z": -604,
+        "TerritoryId": 961
+    },
+    {
+        "BnpcName": 10643,
+        "X": 1,
+        "Y": 0,
+        "Z": -789,
+        "TerritoryId": 961
+    },
+    {
+        "BnpcName": 10643,
+        "X": -14,
+        "Y": 0,
+        "Z": -414,
+        "TerritoryId": 961
+    },
+    {
+        "BnpcName": 10643,
+        "X": 551,
+        "Y": 0,
+        "Z": -159,
+        "TerritoryId": 961
+    },
+    {
+        "BnpcName": 10643,
+        "X": 651,
+        "Y": 0,
+        "Z": -374,
+        "TerritoryId": 961
+    },
+    {
+        "BnpcName": 10643,
+        "X": 631,
+        "Y": 0,
+        "Z": -534,
+        "TerritoryId": 961
+    },
+    {
+        "BnpcName": 10644,
+        "X": -724,
+        "Y": 0,
+        "Z": 371,
+        "TerritoryId": 961
+    },
+    {
+        "BnpcName": 10644,
+        "X": -434,
+        "Y": 0,
+        "Z": 541,
+        "TerritoryId": 961
+    },
+    {
+        "BnpcName": 10644,
+        "X": -179,
+        "Y": 0,
+        "Z": 441,
+        "TerritoryId": 961
+    },
+    {
+        "BnpcName": 10644,
+        "X": -124,
+        "Y": 0,
+        "Z": 156,
+        "TerritoryId": 961
+    },
+    {
+        "BnpcName": 10644,
+        "X": 401,
+        "Y": 0,
+        "Z": 306,
+        "TerritoryId": 961
+    },
+    {
+        "BnpcName": 10645,
+        "X": -669,
+        "Y": 0,
+        "Z": -54,
+        "TerritoryId": 960
+    },
+    {
+        "BnpcName": 10645,
+        "X": -479,
+        "Y": 0,
+        "Z": 21,
+        "TerritoryId": 960
+    },
+    {
+        "BnpcName": 10645,
+        "X": -414,
+        "Y": 0,
+        "Z": -554,
+        "TerritoryId": 960
+    },
+    {
+        "BnpcName": 10645,
+        "X": -119,
+        "Y": 0,
+        "Z": -584,
+        "TerritoryId": 960
+    },
+    {
+        "BnpcName": 10645,
+        "X": 311,
+        "Y": 0,
+        "Z": -479,
+        "TerritoryId": 960
+    },
+    {
+        "BnpcName": 10646,
+        "X": -334,
+        "Y": 0,
+        "Z": 726,
+        "TerritoryId": 960
+    },
+    {
+        "BnpcName": 10646,
+        "X": -259,
+        "Y": 0,
+        "Z": 241,
+        "TerritoryId": 960
+    },
+    {
+        "BnpcName": 10646,
+        "X": -204,
+        "Y": 0,
+        "Z": 441,
+        "TerritoryId": 960
+    },
+    {
+        "BnpcName": 10646,
+        "X": 6,
+        "Y": 0,
+        "Z": 641,
+        "TerritoryId": 960
+    },
+    {
+        "BnpcName": 13144,
+        "X": 356,
+        "Y": 0,
+        "Z": -609,
+        "TerritoryId": 1187
+    },
+    {
+        "BnpcName": 13144,
+        "X": -499,
+        "Y": 0,
+        "Z": -639,
+        "TerritoryId": 1187
+    },
+    {
+        "BnpcName": 13144,
+        "X": -119,
+        "Y": 0,
+        "Z": -369,
+        "TerritoryId": 1187
+    },
+    {
+        "BnpcName": 13144,
+        "X": -154,
+        "Y": 0,
+        "Z": -204,
+        "TerritoryId": 1187
+    },
+    {
+        "BnpcName": 13144,
+        "X": -4,
+        "Y": 0,
+        "Z": -229,
+        "TerritoryId": 1187
+    },
+    {
+        "BnpcName": 13144,
+        "X": 616,
+        "Y": 0,
+        "Z": -89,
+        "TerritoryId": 1187
+    },
+    {
+        "BnpcName": 13145,
+        "X": -699,
+        "Y": 0,
+        "Z": 196,
+        "TerritoryId": 1187
+    },
+    {
+        "BnpcName": 13145,
+        "X": 326,
+        "Y": 0,
+        "Z": 76,
+        "TerritoryId": 1187
+    },
+    {
+        "BnpcName": 13145,
+        "X": 16,
+        "Y": 0,
+        "Z": -9,
+        "TerritoryId": 1187
+    },
+    {
+        "BnpcName": 13145,
+        "X": -69,
+        "Y": 0,
+        "Z": 111,
+        "TerritoryId": 1187
+    },
+    {
+        "BnpcName": 13146,
+        "X": 566,
+        "Y": 0,
+        "Z": -709,
+        "TerritoryId": 1188
+    },
+    {
+        "BnpcName": 13146,
+        "X": -269,
+        "Y": 0,
+        "Z": -224,
+        "TerritoryId": 1188
+    },
+    {
+        "BnpcName": 13146,
+        "X": -614,
+        "Y": 0,
+        "Z": -684,
+        "TerritoryId": 1188
+    },
+    {
+        "BnpcName": 13146,
+        "X": 756,
+        "Y": 0,
+        "Z": -74,
+        "TerritoryId": 1188
+    },
+    {
+        "BnpcName": 13146,
+        "X": 431,
+        "Y": 0,
+        "Z": -289,
+        "TerritoryId": 1188
+    },
+    {
+        "BnpcName": 13147,
+        "X": 606,
+        "Y": 0,
+        "Z": 746,
+        "TerritoryId": 1188
+    },
+    {
+        "BnpcName": 13147,
+        "X": 121,
+        "Y": 0,
+        "Z": 756,
+        "TerritoryId": 1188
+    },
+    {
+        "BnpcName": 13147,
+        "X": -49,
+        "Y": 0,
+        "Z": 326,
+        "TerritoryId": 1188
+    },
+    {
+        "BnpcName": 13147,
+        "X": -319,
+        "Y": 0,
+        "Z": 81,
+        "TerritoryId": 1188
+    },
+    {
+        "BnpcName": 13147,
+        "X": -824,
+        "Y": 0,
+        "Z": 376,
+        "TerritoryId": 1188
+    },
+    {
+        "BnpcName": 13148,
+        "X": -384,
+        "Y": 0,
+        "Z": 246,
+        "TerritoryId": 1189
+    },
+    {
+        "BnpcName": 13148,
+        "X": 36,
+        "Y": 0,
+        "Z": 361,
+        "TerritoryId": 1189
+    },
+    {
+        "BnpcName": 13148,
+        "X": -19,
+        "Y": 0,
+        "Z": 751,
+        "TerritoryId": 1189
+    },
+    {
+        "BnpcName": 13148,
+        "X": 161,
+        "Y": 0,
+        "Z": 601,
+        "TerritoryId": 1189
+    },
+    {
+        "BnpcName": 13149,
+        "X": 91,
+        "Y": 0,
+        "Z": -339,
+        "TerritoryId": 1189
+    },
+    {
+        "BnpcName": 13149,
+        "X": 586,
+        "Y": 0,
+        "Z": -254,
+        "TerritoryId": 1189
+    },
+    {
+        "BnpcName": 13149,
+        "X": 226,
+        "Y": 0,
+        "Z": -604,
+        "TerritoryId": 1189
+    },
+    {
+        "BnpcName": 13149,
+        "X": -379,
+        "Y": 0,
+        "Z": -804,
+        "TerritoryId": 1189
+    },
+    {
+        "BnpcName": 13150,
+        "X": 176,
+        "Y": 0,
+        "Z": 76,
+        "TerritoryId": 1190
+    },
+    {
+        "BnpcName": 13151,
+        "X": 76,
+        "Y": 0,
+        "Z": -159,
+        "TerritoryId": 1190
+    },
+    {
+        "BnpcName": 13151,
+        "X": -274,
+        "Y": 0,
+        "Z": -674,
+        "TerritoryId": 1190
+    },
+    {
+        "BnpcName": 13151,
+        "X": 636,
+        "Y": 0,
+        "Z": -749,
+        "TerritoryId": 1190
+    },
+    {
+        "BnpcName": 13151,
+        "X": 726,
+        "Y": 0,
+        "Z": -174,
+        "TerritoryId": 1190
+    },
+    {
+        "BnpcName": 13152,
+        "X": 386,
+        "Y": 0,
+        "Z": 401,
+        "TerritoryId": 1191
+    },
+    {
+        "BnpcName": 13152,
+        "X": 116,
+        "Y": 0,
+        "Z": -99,
+        "TerritoryId": 1191
+    },
+    {
+        "BnpcName": 13152,
+        "X": 726,
+        "Y": 0,
+        "Z": -424,
+        "TerritoryId": 1191
+    },
+    {
+        "BnpcName": 13153,
+        "X": -444,
+        "Y": 0,
+        "Z": -44,
+        "TerritoryId": 1191
+    },
+    {
+        "BnpcName": 13153,
+        "X": -319,
+        "Y": 0,
+        "Z": 216,
+        "TerritoryId": 1191
+    },
+    {
+        "BnpcName": 13153,
+        "X": 276,
+        "Y": 0,
+        "Z": 611,
+        "TerritoryId": 1191
+    },
+    {
+        "BnpcName": 13153,
+        "X": -669,
+        "Y": 0,
+        "Z": 606,
+        "TerritoryId": 1191
+    },
+    {
+        "BnpcName": 13153,
+        "X": -389,
+        "Y": 0,
+        "Z": 811,
+        "TerritoryId": 1191
+    },
+    {
+        "BnpcName": 13154,
+        "X": -459,
+        "Y": 0,
+        "Z": 806,
+        "TerritoryId": 1192
+    },
+    {
+        "BnpcName": 13154,
+        "X": 576,
+        "Y": 0,
+        "Z": -34,
+        "TerritoryId": 1192
+    },
+    {
+        "BnpcName": 13154,
+        "X": -839,
+        "Y": 0,
+        "Z": 371,
+        "TerritoryId": 1192
+    },
+    {
+        "BnpcName": 13154,
+        "X": -839,
+        "Y": 0,
+        "Z": 586,
+        "TerritoryId": 1192
+    },
+    {
+        "BnpcName": 13155,
+        "X": -139,
+        "Y": 0,
+        "Z": -74,
+        "TerritoryId": 1192
+    },
+    {
+        "BnpcName": 13155,
+        "X": 576,
+        "Y": 0,
+        "Z": -34,
+        "TerritoryId": 1192
+    },
+    {
+        "BnpcName": 13155,
+        "X": 796,
+        "Y": 0,
+        "Z": -134,
+        "TerritoryId": 1192
+    },
+    {
+        "BnpcName": 13155,
+        "X": -829,
+        "Y": 0,
+        "Z": -434,
+        "TerritoryId": 1192
+    }
+]

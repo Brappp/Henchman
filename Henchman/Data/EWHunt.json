@@ -1,0 +1,714 @@
+[
+    {
+        "BnpcName": 10419,
+        "X": 793.54,
+        "Y": 478.77,
+        "Z": 202.3,
+        "TerritoryId": 960,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10420,
+        "X": -225.59,
+        "Y": 273.11,
+        "Z": -361.69,
+        "TerritoryId": 960,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10421,
+        "X": 665.92,
+        "Y": 440.46,
+        "Z": 364.01,
+        "TerritoryId": 960,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10422,
+        "X": 574.23,
+        "Y": 440.17,
+        "Z": 346.51,
+        "TerritoryId": 960,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10423,
+        "X": 710.4,
+        "Y": 478.8,
+        "Z": 217.34,
+        "TerritoryId": 960,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10424,
+        "X": 508.33,
+        "Y": 438,
+        "Z": 275.34,
+        "TerritoryId": 960,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10427,
+        "X": -554.25,
+        "Y": 83.74,
+        "Z": 443.61,
+        "TerritoryId": 960,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10430,
+        "X": -295.01,
+        "Y": 85.09,
+        "Z": 349.21,
+        "TerritoryId": 960,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10435,
+        "X": -369.66,
+        "Y": 263.24,
+        "Z": -379.1,
+        "TerritoryId": 960,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10458,
+        "X": 112.17,
+        "Y": 56.33,
+        "Z": 130.34,
+        "TerritoryId": 959,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10459,
+        "X": 140.46,
+        "Y": 71.69,
+        "Z": 38.69,
+        "TerritoryId": 959,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10460,
+        "X": -638.451,
+        "Y": 129.136,
+        "Z": 705.12,
+        "TerritoryId": 959,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10461,
+        "X": 240.36,
+        "Y": 46.91,
+        "Z": 217.08,
+        "TerritoryId": 959,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10462,
+        "X": 479.96,
+        "Y": 62.57,
+        "Z": 478.73,
+        "TerritoryId": 959,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10463,
+        "X": -92.6,
+        "Y": 59.15,
+        "Z": 96.88,
+        "TerritoryId": 959,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10464,
+        "X": 312.05,
+        "Y": 134.35,
+        "Z": 770.09,
+        "TerritoryId": 959,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10465,
+        "X": 96.79,
+        "Y": 60.94,
+        "Z": 524.28,
+        "TerritoryId": 959,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10467,
+        "X": -571.27,
+        "Y": 130.49,
+        "Z": 754.67,
+        "TerritoryId": 959,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10468,
+        "X": -490.31,
+        "Y": 142.14,
+        "Z": 141.17,
+        "TerritoryId": 959,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10469,
+        "X": -230.92,
+        "Y": 59.41,
+        "Z": 370.48,
+        "TerritoryId": 959,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10470,
+        "X": -410.1,
+        "Y": -157.28,
+        "Z": -604.6,
+        "TerritoryId": 959,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10471,
+        "X": -282.77,
+        "Y": 88.8,
+        "Z": 90.01,
+        "TerritoryId": 959,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10473,
+        "X": 376.48,
+        "Y": 115.03,
+        "Z": 56.82,
+        "TerritoryId": 959,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10474,
+        "X": 662.4,
+        "Y": 127.57,
+        "Z": 270.01,
+        "TerritoryId": 959,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10475,
+        "X": 663.54,
+        "Y": 135.28,
+        "Z": 343.54,
+        "TerritoryId": 959,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10476,
+        "X": -477.54,
+        "Y": -167.5,
+        "Z": -560.03,
+        "TerritoryId": 959,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10477,
+        "X": 454.26,
+        "Y": -168,
+        "Z": -468.08,
+        "TerritoryId": 959,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10590,
+        "X": 195.44,
+        "Y": 20.25,
+        "Z": 604.9,
+        "TerritoryId": 961,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10591,
+        "X": -225.95,
+        "Y": -41.74,
+        "Z": 382.47,
+        "TerritoryId": 961,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10592,
+        "X": 30.67,
+        "Y": -9.97,
+        "Z": -75.59,
+        "TerritoryId": 961,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10594,
+        "X": -797.8,
+        "Y": -37.54,
+        "Z": 483.13,
+        "TerritoryId": 961,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10595,
+        "X": 55.23,
+        "Y": -9.92,
+        "Z": 417.65,
+        "TerritoryId": 961,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10596,
+        "X": -743.38,
+        "Y": 175.44,
+        "Z": -316.05,
+        "TerritoryId": 961,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10597,
+        "X": 324.36,
+        "Y": 3.61,
+        "Z": 155.37,
+        "TerritoryId": 961,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10599,
+        "X": 520.64,
+        "Y": 146.06,
+        "Z": -370.41,
+        "TerritoryId": 961,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10600,
+        "X": -274.77,
+        "Y": 313.73,
+        "Z": -605.27,
+        "TerritoryId": 961,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10601,
+        "X": 230.18,
+        "Y": 166.15,
+        "Z": -541.58,
+        "TerritoryId": 961,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10602,
+        "X": 298.43,
+        "Y": 134.23,
+        "Z": -698.47,
+        "TerritoryId": 961,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10603,
+        "X": 131.19,
+        "Y": 138.13,
+        "Z": -321.63,
+        "TerritoryId": 961,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10606,
+        "X": -8.47,
+        "Y": 136.2,
+        "Z": -698.39,
+        "TerritoryId": 961,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10607,
+        "X": -560.53,
+        "Y": -29.31,
+        "Z": 655.02,
+        "TerritoryId": 961,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10608,
+        "X": -465.13,
+        "Y": 148.82,
+        "Z": 129.67,
+        "TerritoryId": 961,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10609,
+        "X": -388.88,
+        "Y": 315.82,
+        "Z": -661.87,
+        "TerritoryId": 961,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10610,
+        "X": -424.56,
+        "Y": 148.71,
+        "Z": -88.43,
+        "TerritoryId": 961,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10611,
+        "X": 587.92,
+        "Y": 138.59,
+        "Z": -206.55,
+        "TerritoryId": 961,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10648,
+        "X": -129.66,
+        "Y": 10.8,
+        "Z": -595.26,
+        "TerritoryId": 958,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10649,
+        "X": -82.47,
+        "Y": 10.8,
+        "Z": -187.58,
+        "TerritoryId": 958,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10650,
+        "X": -299.76,
+        "Y": 17.6,
+        "Z": -122.66,
+        "TerritoryId": 958,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10651,
+        "X": 23.22,
+        "Y": 10.8,
+        "Z": -140.67,
+        "TerritoryId": 958,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10652,
+        "X": -597.16,
+        "Y": 10.8,
+        "Z": -705.06,
+        "TerritoryId": 958,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10653,
+        "X": 387.97,
+        "Y": 10.8,
+        "Z": -341.17,
+        "TerritoryId": 958,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10654,
+        "X": 202.97,
+        "Y": 23.62,
+        "Z": -455.06,
+        "TerritoryId": 958,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10655,
+        "X": -500.23,
+        "Y": 20.04,
+        "Z": -427.78,
+        "TerritoryId": 958,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10656,
+        "X": 376.43,
+        "Y": -19.15,
+        "Z": 444.49,
+        "TerritoryId": 958,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10657,
+        "X": -358.32,
+        "Y": 13.4,
+        "Z": 214.07,
+        "TerritoryId": 958,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10658,
+        "X": 534.8,
+        "Y": 15.26,
+        "Z": -279.24,
+        "TerritoryId": 958,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10659,
+        "X": -76.78,
+        "Y": -6.73,
+        "Z": 394.22,
+        "TerritoryId": 958,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10660,
+        "X": 122.25,
+        "Y": -2.69,
+        "Z": 178.54,
+        "TerritoryId": 958,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10661,
+        "X": 354.9,
+        "Y": -20.46,
+        "Z": 553.06,
+        "TerritoryId": 958,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10662,
+        "X": 129.53,
+        "Y": -19.56,
+        "Z": 474.86,
+        "TerritoryId": 958,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10663,
+        "X": -129.17,
+        "Y": 8.32,
+        "Z": 173.59,
+        "TerritoryId": 958,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10664,
+        "X": 216.19,
+        "Y": -7.94,
+        "Z": 257.87,
+        "TerritoryId": 958,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10668,
+        "X": 216.14,
+        "Y": 182.52,
+        "Z": -697.66,
+        "TerritoryId": 956,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10669,
+        "X": 464.15,
+        "Y": 82.64,
+        "Z": 101.05,
+        "TerritoryId": 956,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10670,
+        "X": -326.46,
+        "Y": 179.47,
+        "Z": -738.92,
+        "TerritoryId": 956,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10672,
+        "X": 562.42,
+        "Y": 160.46,
+        "Z": -620.62,
+        "TerritoryId": 956,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10673,
+        "X": 42.57,
+        "Y": 72.73,
+        "Z": -404.46,
+        "TerritoryId": 956,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10674,
+        "X": -181.82,
+        "Y": 60.83,
+        "Z": -436.93,
+        "TerritoryId": 956,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10677,
+        "X": 623.25,
+        "Y": 183.87,
+        "Z": -144.77,
+        "TerritoryId": 956,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10678,
+        "X": -12.473,
+        "Y": 81.72,
+        "Z": -569.959,
+        "TerritoryId": 956,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10679,
+        "X": 276.75,
+        "Y": 71.05,
+        "Z": -222.24,
+        "TerritoryId": 956,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10683,
+        "X": 803.59,
+        "Y": 148.68,
+        "Z": -113.65,
+        "TerritoryId": 956,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10697,
+        "X": -106.41,
+        "Y": 64.38,
+        "Z": -46.26,
+        "TerritoryId": 957,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10698,
+        "X": -394.77,
+        "Y": 53.71,
+        "Z": -85.95,
+        "TerritoryId": 957,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10699,
+        "X": -115.15,
+        "Y": 5.11,
+        "Z": 559.43,
+        "TerritoryId": 957,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10700,
+        "X": -120.44,
+        "Y": 34.25,
+        "Z": 271.92,
+        "TerritoryId": 957,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10701,
+        "X": 330.1,
+        "Y": 8,
+        "Z": -451.04,
+        "TerritoryId": 957,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10702,
+        "X": 299.5,
+        "Y": 4.25,
+        "Z": 260.44,
+        "TerritoryId": 957,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10703,
+        "X": 494.35,
+        "Y": 11.15,
+        "Z": -352.83,
+        "TerritoryId": 957,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10704,
+        "X": -188.17,
+        "Y": 68.99,
+        "Z": -147.17,
+        "TerritoryId": 957,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10705,
+        "X": -52.33,
+        "Y": 32.41,
+        "Z": 410.4,
+        "TerritoryId": 957,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10706,
+        "X": -139.8,
+        "Y": 85.33,
+        "Z": -504.66,
+        "TerritoryId": 957,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10707,
+        "X": 148.62,
+        "Y": 19.734,
+        "Z": -80.037,
+        "TerritoryId": 957,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10709,
+        "X": -587.83,
+        "Y": 25.31,
+        "Z": -369.74,
+        "TerritoryId": 957,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10711,
+        "X": -274.23,
+        "Y": 66.98,
+        "Z": -621.81,
+        "TerritoryId": 957,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10712,
+        "X": -313.72,
+        "Y": 64.4,
+        "Z": -435.09,
+        "TerritoryId": 957,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10713,
+        "X": 62.13,
+        "Y": 29.83,
+        "Z": -90.81,
+        "TerritoryId": 957,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10715,
+        "X": -462.67,
+        "Y": 0.14,
+        "Z": 258.87,
+        "TerritoryId": 957,
+        "FateId": 0
+    },
+    {
+        "BnpcName": 10716,
+        "X": -668.96,
+        "Y": 4.84,
+        "Z": -181.11,
+        "TerritoryId": 957,
+        "FateId": 0
+    }
+]

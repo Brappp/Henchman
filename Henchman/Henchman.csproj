@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Project Sdk="Dalamud.NET.Sdk/12.0.2">
+    <PropertyGroup>
+        <Version>1.0.0.6</Version>
+        <Description></Description>
+        <PackageProjectUrl>https://github.com/Knightmore/Henchman</PackageProjectUrl>
+        <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
+        <IsPackable>false</IsPackable>
+        <Product>Henchman</Product>
+        <Company>Knightmore</Company>
+        <Authors>Knightmore</Authors>
+        <PackageId>Henchman</PackageId>
+        <Configurations>Debug;Release;Private</Configurations>
+    </PropertyGroup>
+    <ItemGroup>
+        <Compile Remove="Properties\**" />
+        <EmbeddedResource Remove="Properties\**" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Data\ARRHunt.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Data\DTHunt.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Data\EWHunt.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Data\HWHunt.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Data\SHBHunt.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Data\StBHunt.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Include="Data\BRanks.json">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <Content Include="Images\Henchman.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
+
+    <ItemGroup Condition="'$(Configuration)' == 'Release'">
+        <Compile Remove="Features\Private\**\*.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="ECommons" Version="3.0.0" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,178 @@
+using System.Linq;
+using ECommons.Automation;
+using ECommons.Configuration;
+using ECommons.ImGuiMethods;
+using FFXIVClientStructs.FFXIV.Client.Game;
+using Henchman.Helpers;
+using Henchman.TaskManager;
+using ImGuiNET;
+using Lumina.Excel.Sheets;
+using Action = System.Action;
+
+namespace Henchman.Features.RetainerVocate;
+
+[Feature]
+public class RetainerVocateUi : FeatureUI
+{
+    internal readonly RetainerVocate feature = new();
+    public override   string         Name => "Retainer Vocate";
+
+    public override Action Help => () =>
+                                   {
+                                       ImGui.Text("""
+                                                  Lorem ipsum dolor sit amet....
+                                                  Just kidding, I was only too lazy to write a good help text yet. 
+                                                  The UI should be self-explanatory though.
+                                                  It will even trigger the Venture Quest after doing retainers.
+                                                  If any task fails or you somehow messed up midway, 
+                                                  you can try to continue through one of the 'Single Backup Tasks' 
+                                                  """);
+
+                                       ImGuiHelper.DrawRequirements(Requirements);
+                                   };
+
+    public override bool LoginNeeded => true;
+
+    public override List<(string pluginName, bool mandatory)> Requirements =>
+    [
+            (IPCNames.vnavmesh, true),
+            (IPCNames.Lifestream, true),
+            (IPCNames.Questionable, true)
+    ];
+
+    public override unsafe void Draw()
+    {
+        var configChanged = false;
+
+        if (!QuestManager.IsQuestComplete(66196))
+            ImGuiEx.Text(EzColor.Red, "Retainers are not unlocked. Proceed with MSQ and finish \"The Scions of the Seventh Dawn\".");
+        else
+        {
+            if (ImGui.Button("Create Retainers"))
+                feature.RunFullCreation(C.UseMaxRetainerAmount
+                                                ? 10
+                                                : (uint)C.RetainerAmount, C.RetainerClass, C.QstClassJob);
+
+            configChanged |= ImGui.Checkbox("Fill all retainer slots", ref C.UseMaxRetainerAmount);
+            if (!C.UseMaxRetainerAmount)
+            {
+                ImGui.Text("Retainer amount");
+
+                if (RetainerManager.Instance()->MaxRetainerEntitlement == 0)
+                {
+                    ImGuiEx.Text(EzColor.Red, "Could not read the maximum allowed amount of retainers on your account.");
+                    ImGuiEx.Text(EzColor.Red, "Please interact with a \"Retainer Vocate\" to progress.");
+                }
+                else
+                {
+                    ImGui.SameLine(150);
+                    ImGui.SetNextItemWidth(120f);
+                    configChanged |= ImGui.Combo("##retainerAmount", ref C.RetainerAmount, Enumerable.Range(1, 10)
+                                                                                                     .Select(x => x.ToString())
+                                                                                                     .ToArray(), 10);
+                }
+            }
+
+            ImGui.Text("City");
+            ImGui.SameLine(150);
+            ImGui.SetNextItemWidth(120f);
+            configChanged |= ImGuiEx.EnumCombo("##retainerCity", ref C.RetainerCity);
+            ImGui.Text("Race");
+            ImGui.SameLine(150);
+            ImGui.SetNextItemWidth(120f);
+            configChanged |= ImGuiEx.EnumCombo("##retainerRace", ref C.RetainerRace);
+            ImGui.Text("Gender");
+            ImGui.SameLine(150);
+            ImGui.SetNextItemWidth(120f);
+            configChanged |= ImGuiEx.EnumCombo("##retainerGender", ref C.RetainerGender);
+            ImGui.Text("Personality");
+            ImGui.SameLine(150);
+            ImGui.SetNextItemWidth(120f);
+            configChanged |= ImGuiEx.EnumCombo("##retainerPersonality", ref C.RetainerPersonality);
+
+            ImGui.Text("Retainer Class");
+            ImGui.SameLine(150);
+            ImGui.SetNextItemWidth(120f);
+            if (ImGuiEx.ExcelSheetCombo<ClassJob>("##retainerJob", out var selected, s => s.GetRowOrDefault(C.RetainerClass) is { } row
+                                                                                                  ? s.GetRow(C.RetainerClass)
+                                                                                                     .Abbreviation.ExtractText()
+                                                                                                  : string.Empty, x => x.Abbreviation.ExtractText(),
+                                                  x => x.RowId is >= 1 and <= 7 or >= 16 and <= 18 or 26 or 29))
+            {
+                C.RetainerClass = selected.RowId;
+                configChanged   = true;
+            }
+
+            ImGui.Separator();
+
+            ImGui.NewLine();
+            ImGui.Text("Class/Job for Quest:");
+            ImGui.SameLine(150);
+            ImGui.SetNextItemWidth(120f);
+            if (ImGuiEx.ExcelSheetCombo<ClassJob>("##qstCombatJob", out var classJobSheet, s => s.GetRowOrDefault(C.QstClassJob) is { } row
+                                                                                                        ? s.GetRow(C.QstClassJob)
+                                                                                                           .Abbreviation.ExtractText()
+                                                                                                        : string.Empty,
+                                                  x => x.Abbreviation.ExtractText(), x => x.RowId is >= 1 and <= 7 or >= 19 and <= 42))
+            {
+                C.QstClassJob = classJobSheet.RowId;
+                configChanged = true;
+            }
+
+            if (ImGui.CollapsingHeader("Single Backup Tasks##singleTasks"))
+            {
+                if (RetainerManager.Instance()->MaxRetainerEntitlement                                                  == 0 ||
+                    RetainerManager.Instance()->MaxRetainerEntitlement - RetainerManager.Instance()->GetRetainerCount() > 0)
+                {
+                    if (ImGui.Button(C.UseMaxRetainerAmount                                  ? "Create Retainers" :
+                                     RetainerManager.Instance()->MaxRetainerEntitlement == 0 ? "Go To Vocate" : "Create Retainers") &&
+                        !Utils.IsPluginBusy)
+                    {
+                        EnqueueTask(new TaskRecord(feature.GoToRetainerVocate, "Go to Retainer Vocate"));
+                        if (C.UseMaxRetainerAmount || RetainerManager.Instance()->MaxRetainerEntitlement != 0)
+                            EnqueueTask(new TaskRecord(token => feature.CreateRetainers(token, C.UseMaxRetainerAmount
+                                                                                                       ? 10
+                                                                                                       : C.RetainerAmount), "Create Retainers"));
+                    }
+                }
+                else
+                    ImGuiEx.Text(EzColor.Red, "You can not create more Retainers on this character!");
+
+                if (!QuestManager.IsQuestComplete(66968) && !QuestManager.IsQuestComplete(66969) && !QuestManager.IsQuestComplete(66970))
+                {
+                    var classJob = Svc.Data.GetExcelSheet<ClassJob>()
+                                      .GetRow(C.QstClassJob);
+                    var gearset = Utils.GetGearsetForClassJob(classJob);
+                    ImGui.NewLine();
+                    ImGui.Text("Questionable:");
+                    ImGui.Text("An Ill-conceived Venture");
+                    if (gearset == null)
+                        ImGuiEx.Text(EzColor.Red, "You have no gearset registered for your chosen class.");
+                    else if (ImGui.Button("Run Quest") && !Questionable.IsRunning() && !Utils.IsPluginBusy)
+                    {
+                        Chat.Instance.SendMessage($"/gearset change {gearset.Value + 1}");
+                        if (!SubscriptionManager.IsInitialized(IPCNames.Questionable))
+                        {
+                            Error("'Questionable' not available. Skipping Venture Quest and equipping Retainers.");
+                            ChatPrint("'Questionable' not available. Skipping Venture Quest and equipping Retainers.");
+                            return;
+                        }
+
+                        EnqueueTask(new TaskRecord(token => feature.StartVentureQuest(token, C.QstClassJob), "Do Retainer Venture Quest"));
+                    }
+                }
+
+                if (ImGui.Button("Assign Class"))
+                {
+                    if (RetainerManager.Instance()->MaxRetainerEntitlement == 0)
+                        EnqueueTask(new TaskRecord(feature.GoToRetainerVocate, "Go to Retainer Vocate"));
+                    EnqueueTask(new TaskRecord(token => feature.BuyAndEquipRetainerGear(token, C.UseMaxRetainerAmount
+                                                                                                       ? 10
+                                                                                                       : (uint)C.RetainerAmount, C.RetainerClass), "Buy and Equip Retainer Gear"));
+                }
+            }
+        }
+
+        if (configChanged) EzConfig.Save();
+    }
+}

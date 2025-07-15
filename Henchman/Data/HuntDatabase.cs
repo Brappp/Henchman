@@ -186,7 +186,7 @@ internal static class HuntDatabase
                 {
                     if (!marksDict.TryGetValue(jsonMark.BnpcName, out var huntMark))
                         marksDict[jsonMark.BnpcName] = new HuntMark(jsonMark.BnpcName, jsonMark.X, jsonMark.Y, jsonMark.Z, jsonMark.TerritoryId, jsonMark.FateId);
-                    else
+                    else if(huntMark.TerritoryId == jsonMark.TerritoryId)
                         huntMark.Positions.Add(new Vector3(jsonMark.X, jsonMark.Y, jsonMark.Z));
                 }
             }

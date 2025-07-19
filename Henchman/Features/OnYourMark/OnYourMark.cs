@@ -131,7 +131,7 @@ internal class OnYourMark
             Verbose($"Enabled Bill Count: {enabledBillsSelectString.Count()}");
         }
 
-        var orderedMarks = huntTargets.OrderBy(x => x.TerritoryId)
+        var orderedMarks = huntTargets.OrderBy(x => x.FateId).ThenBy(x => x.TerritoryId)
                                       .ToList();
         await ProcessHuntMarks(orderedMarks, token: token);
     }

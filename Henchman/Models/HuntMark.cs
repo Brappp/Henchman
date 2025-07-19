@@ -8,9 +8,9 @@ namespace Henchman.Models;
 
 public class HuntMark
 {
-    public HuntMark(uint bnpcname, float x, float y, float z, uint territoryId, uint fateId)
+    public HuntMark(uint bnpcNameRowId, float x, float y, float z, uint territoryId, uint fateId)
     {
-        BNpcNameRow = bnpcname;
+        BNpcNameRowId = bnpcNameRowId;
         Positions.Add(new Vector3(x, y, z));
         TerritoryId = territoryId;
         FateId      = fateId;
@@ -18,14 +18,14 @@ public class HuntMark
 
     public HuntMark(HuntMark original)
     {
-        BNpcNameRow = original.BNpcNameRow;
+        BNpcNameRowId = original.BNpcNameRowId;
         Positions   = new List<Vector3>(original.Positions);
         TerritoryId = original.TerritoryId;
         FateId      = original.FateId;
         NeededKills = original.NeededKills;
     }
 
-    public uint BNpcNameRow { get; private set; }
+    public uint BNpcNameRowId { get; private set; }
 
     public uint FateId { get; private set; }
 
@@ -69,14 +69,14 @@ public class HuntMark
                            .GetRow(FateId);
 
     public BNpcName BNpcNameSheet => Svc.Data.GetExcelSheet<BNpcName>()
-                                        .GetRow(BNpcNameRow);
+                                        .GetRow(BNpcNameRowId);
 
     public string Name => Svc.Data.GetExcelSheet<BNpcName>()
-                             .GetRow(BNpcNameRow)
+                             .GetRow(BNpcNameRowId)
                              .Singular.ExtractText();
 
     public int Icon => Svc.Data.GetExcelSheet<MonsterNoteTarget>()
-                          .FirstOrDefault(x => x.BNpcName.RowId == BNpcNameRow)
+                          .FirstOrDefault(x => x.BNpcName.RowId == BNpcNameRowId)
                           .Icon;
 }
 

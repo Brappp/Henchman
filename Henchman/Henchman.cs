@@ -126,4 +126,11 @@ public class Henchman : IDalamudPlugin
     {
         mainWindow.Toggle();
     }
+
+    public static bool TryGetFeature<T>(out T result) where T : FeatureUI
+    {
+        result = FeatureSet.OfType<T>().FirstOrDefault();
+        return result != null;
+    }
+
 }

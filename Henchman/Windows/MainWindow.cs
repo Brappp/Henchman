@@ -141,7 +141,16 @@ public class MainWindow : Window, IDisposable
                         ImGuiEx.TextCentered("""
                                              The included features work within the limitations of vnavmesh and your unlocked ingame progress!
                                              There is no 'intelligent' pathing included (yet!?). 
-                                             If you haven't unlocked all needed Territories/Aetherytes, certain features will stop at that task.
+                                             If you haven't unlocked all needed Territories/Aetherytes, certain features may stop at that task.
+                                             """);
+                        ImGui.NewLine();
+                        ImGui.Separator();
+                        ImGui.NewLine();
+
+                        ImGuiEx.TextCentered(ImGuiColors.DalamudRed, "Positional Mob Data");
+                        ImGuiEx.TextCentered("""
+                                             Due to the amount of positional data, it can happen, that not all positions are correct.
+                                             If you want to report a problematic position, please also send the corrected position if possible.
                                              """);
                         return;
                     }

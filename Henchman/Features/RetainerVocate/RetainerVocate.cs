@@ -1,6 +1,7 @@
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using Dalamud.Game.ClientState.Conditions;
 using ECommons.Automation;
 using ECommons.GameFunctions;
 using ECommons.GameHelpers;
@@ -45,7 +46,7 @@ internal class RetainerVocate
                                                                                                                                                    .Name.ExtractText()
                                                                                                                                                    .Contains(category)));
 
-    private static bool IsCombat(uint retainerClass) => ClassRow(retainerClass)
+    internal static bool IsCombat(uint retainerClass) => ClassRow(retainerClass)
                                                        .ClassJobCategory.Value.Name.ExtractText()
                                                        .Contains("War") ||
                                                         ClassRow(retainerClass)
@@ -343,8 +344,23 @@ internal class RetainerVocate
                             .GetRow(C.RetainerClass)
                             .Name.ExtractText();
         }
+        PluginLog.Debug(retainerAmount.ToString());
+        var index = -1;
+        unsafe
+        {
+            for (var i = 0; i < retainerCount; i++)
+            {
+                if (RetainerManager.Instance()->Retainers[i].ClassJob == 0)
+                {
+                    index = i;
+                    break;
+                }
+            }
 
-        for (var i = 0; i < retainerAmount; i++)
+            if (index == -1) return;
+        }
+
+        for (var i = index; i < index + retainerAmount; i++)
         {
             var    pos = i;
             byte   classJob;
@@ -354,19 +370,24 @@ internal class RetainerVocate
                 classJob   = RetainerManager.Instance()->Retainers[pos].ClassJob;
                 nameString = RetainerManager.Instance()->Retainers[pos].NameString;
             }
-
             if (classJob != 0) continue;
             await WaitUntilAsync(() => SelectRetainerInList(pos, token), $"Select Retainer {nameString}", token);
             await WaitUntilAsync(() => TrySelectSpecificEntry(Lang.SelectStringAssignRetainerClass), "SelectString AssignClass", token);
             await WaitUntilAsync(() => TrySelectSpecificEntry(classEntry), "SelectString Class", token);
-            await WaitUntilAsync(() => GenericYesNo(true), "SelectYesNo Confirm class", token);
+            await WaitUntilAsync(() => RegexYesNo(true, Lang.SelectYesNoClassConfirmAsk), "SelectYesNo Confirm class", token);
             await WaitUntilAsync(() => TrySelectSpecificEntry(Lang.SelectStringNoMainEquipped), "SelectString Retainer Gear", token);
             await WaitUntilAsync(() => EquipRetainer(MainHand(retainerClassId), token),
                                  $"Equip {MainHand(retainerClassId).Name.ExtractText()} to Retainer {nameString}", token);
             await WaitUntilAsync(() => CloseRetainerCharacter(token), "CloseRetainerWindow", token);
+            if (C.SendOnFirstExploration && InventoryHelper.GetInventoryItemCount(21072) > 2)
+            {
+                await WaitUntilAsync(() => TrySelectSpecificEntry(Lang.SelectStringAssignVenture), "SelectString Assign Venture", token);
+                await WaitUntilAsync(() => TrySelectSpecificEntry([Lang.SelectStringVentureCategoryFieldExploration, Lang.SelectStringVentureCategoryHighlandExploration, Lang.SelectStringVentureCategoryWatersideExploration, Lang.SelectStringVentureCategoryWoodlandExploration]), "SelectString Retainer Gear", token);
+                await WaitUntilAsync(() => TrySelectFirstExplorationVenture(classJob), "SelectString Exploration Task", token);
+                await WaitUntilAsync(() => TryClickRetainerTaskAskAssign(), "Assign Venture", token);
+            }
             await WaitUntilAsync(() => TrySelectSpecificEntry(Lang.SelectStringQuitWithDot), "SelectString Quit", token);
         }
-
         await WaitUntilAsync(() => CloseRetainerList(token), "Close RetainerList", token);
     }
 
@@ -393,7 +414,6 @@ internal class RetainerVocate
             TargetSystem.Instance()->InteractWithObject(TargetSystem.Instance()->Target, false);
         }
 
-        //await Task.Delay(GeneralDelayMs, token).ConfigureAwait(true);
         byte maxRetainerEntitlement = 0;
         byte retainerCount          = 0;
 
@@ -436,10 +456,13 @@ internal class RetainerVocate
         await WaitUntilAsync(() => ProcessYesNo(true, Lang.SelectYesNoFinalizeRetainer), "SelectYesNo FinalizeRetainer", token);
         await WaitUntilAsync(() => TrySelectSpecificEntry(Lang.SelectStringRetainerPersonality(C.RetainerPersonality)), "SelectString RetainerPersonality", token);
         await WaitUntilAsync(() => ProcessYesNo(true, Lang.SelectYesNoHireThisRetainer), "SelectYesNo HireThisRetainer", token);
-        await WaitUntilAsync(() => InputRetainerName(token), "InputString RetainerName", token);
-        // TODO: Not happy with it. Replace with Regex
-        //await WaitUntilAsync(() => RegexYesNo(true, Lang.SelectStringHireTheServicesRetainer), "SelectYesNo HireTheServices", token);
-        await WaitUntilAsync(() => GenericYesNo(true), "SelectYesNo HireTheServices", token);
+        do
+        {
+            await WaitUntilAsync(() => InputRetainerName(token), "InputString RetainerName", token);
+            await WaitUntilAsync(() => RegexYesNo(true, Lang.SelectStringHireTheServicesRetainer), "SelectYesNo HireTheServices", token);
+            await Task.Delay(3000, token);
+        }
+        while (Svc.Condition[ConditionFlag.OccupiedInQuestEvent]);
     }
 
     private async Task<bool> SelectRetainerRaceAndGender(int raceGender, CancellationToken token = default)

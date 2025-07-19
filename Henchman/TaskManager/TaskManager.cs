@@ -1,13 +1,16 @@
 using System.Threading;
 using System.Threading.Tasks;
 using Dalamud.Plugin.Services;
+#if PRIVATE
+using Henchman.Features.Private.OnABoat;
+#endif
 
 namespace Henchman.TaskManager;
 
 public static class TaskManager
 {
     private static readonly LinkedList<TaskRecord>              taskQueue = new();
-    private static readonly LinkedList<CancellationTokenSource> ctsQuueue = new();
+    private static readonly LinkedList<CancellationTokenSource> ctsQueue = new();
     public static           TaskRecord?                         CurrentTaskRecord;
     private static          CancellationTokenSource             Cts             = new();
     public static           List<string>                        TaskDescription = [];
@@ -28,7 +31,7 @@ public static class TaskManager
     public static void EnqueueTask(TaskRecord task)
     {
         taskQueue.AddLast(task);
-        ctsQuueue.AddLast(new CancellationTokenSource());
+        ctsQueue.AddLast(new CancellationTokenSource());
     }
 
     public static void EnqueueMultiTasks(TaskRecord[] tasks)
@@ -47,11 +50,11 @@ public static class TaskManager
 
             Run();
         }
-        else if (CurrentTaskRecord == null && taskQueue.TryGetFirst(out var nextTask) && ctsQuueue.TryGetFirst(out var cts))
+        else if (CurrentTaskRecord == null && taskQueue.TryGetFirst(out var nextTask) && ctsQueue.TryGetFirst(out var cts))
         {
             Cts.Dispose();
             taskQueue.RemoveFirst();
-            ctsQuueue.RemoveFirst();
+            ctsQueue.RemoveFirst();
             Cts               = cts;
             CurrentTaskRecord = nextTask;
             currentTask       = token => CurrentTaskRecord.Task(token);
@@ -94,10 +97,18 @@ public static class TaskManager
     {
         Cts.Cancel();
         taskQueue.Clear();
-        ctsQuueue.Clear();
+        ctsQueue.Clear();
+        Vnavmesh.StopCompletely();
         CurrentTaskRecord = null;
         currentTask       = null;
         TaskDescription.Clear();
+        Bossmod.DisableAI();
         AutoRotation.Disable();
+#if PRIVATE
+        if (TryGetFeature<OnABoatUI>(out var onABoat))
+        {
+            onABoat.feature.UnsubscribeEvents();
+        }
+#endif
     }
 }

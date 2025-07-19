@@ -67,6 +67,9 @@ internal class SettingsUI : FeatureUI
         ImGui.SameLine(240);
         ImGui.SetNextItemWidth(120f);
         configChanged |= ImGuiEx.Combo("##AutoRotation", ref C.AutoRotationPlugin, AutoRotationPlugins, null, AutoRotationCorrectedNames);
+        configChanged |= ImGui.Checkbox("Use Chocobo Companion##useChocoboCompanion", ref C.UseChocoboInFights);
+        ImGui.SameLine();
+        ImGuiEx.HelpMarker("Summon your Chocobo Companion or feed it if the remaining time is less than 5 minutes.");
 
         ImGui.NewLine();
         ImGui.Separator();

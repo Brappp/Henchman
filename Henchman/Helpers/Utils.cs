@@ -93,6 +93,7 @@ internal static class Utils
     internal static T? ReadLocalJsonFile<T>(string fileName)
     {
         var filePath = $"{Svc.PluginInterface.AssemblyLocation.Directory}\\Data\\{fileName}";
+        PluginLog.Verbose(filePath);
         if (!File.Exists(filePath))
             Error($"File '{filePath}' not found.");
 

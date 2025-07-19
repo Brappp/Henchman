@@ -8,6 +8,7 @@ using ECommons.MathHelpers;
 using FFXIVClientStructs.FFXIV.Client.Game;
 using FFXIVClientStructs.FFXIV.Client.Game.Fate;
 using FFXIVClientStructs.FFXIV.Client.Game.UI;
+using Henchman.TaskManager;
 using Lumina.Excel.Sheets;
 using Map = Lumina.Excel.Sheets.Map;
 
@@ -22,11 +23,12 @@ internal static class GeneralHelpers
         NoSpawns
     }
 
-    public static   bool IsPlayerBusy                                                       => IsOccupied() || Player.Object.IsCasting || Player.IsMoving || Player.IsAnimationLocked;
-    internal static bool IsPlayerInObjectRange3D(IGameObject gameObj,  float distance = 5f) => Player.DistanceTo(gameObj)  < distance;
-    internal static bool IsPlayerInObjectRange2D(IGameObject gameObj,  float distance = 5f) => Player.DistanceTo(gameObj)  < distance;
-    internal static bool IsPlayerInPositionRange3D(Vector3   position, float distance = 5f) => Player.DistanceTo(position) < distance;
-    internal static bool IsPlayerInPositionRange2D(Vector2   position, float distance = 5f) => Player.DistanceTo(position) < distance;
+    public static          bool  IsPlayerBusy                                                       => IsOccupied() || Player.Object.IsCasting || Player.IsMoving || Player.IsAnimationLocked;
+    internal static unsafe float GetChocoboTimeLeft                                                 => UIState.Instance()->Buddy.CompanionInfo.TimeLeft;
+    internal static        bool  IsPlayerInObjectRange3D(IGameObject gameObj,  float distance = 5f) => Player.DistanceTo(gameObj)  < distance;
+    internal static        bool  IsPlayerInObjectRange2D(IGameObject gameObj,  float distance = 5f) => Player.DistanceTo(gameObj)  < distance;
+    internal static        bool  IsPlayerInPositionRange3D(Vector3   position, float distance = 5f) => Player.DistanceTo(position) < distance;
+    internal static        bool  IsPlayerInPositionRange2D(Vector2   position, float distance = 5f) => Player.DistanceTo(position) < distance;
 
     internal static bool IsMobNearby(uint dataId)
     {
@@ -59,14 +61,13 @@ internal static class GeneralHelpers
     internal static async Task<bool> Mount(CancellationToken token = default)
     {
         token.ThrowIfCancellationRequested();
-        var description = "Mounting";
+        using var scope       = new TaskDescriptionScope($"Mounting");
         if (Player.IsBusy) return false;
         if (Player.Mounted) return true;
         if (!Svc.Data.GetExcelSheet<TerritoryType>()
                 .GetRow(Svc.ClientState.TerritoryType)
                 .Mount) return false;
-        TaskDescription.Add(description);
-
+        PluginLog.Verbose("Mounting");
         unsafe
         {
             var actionManager = ActionManager.Instance();
@@ -82,23 +83,21 @@ internal static class GeneralHelpers
             }
         }
 
-        await WaitUntilAsync(() => Player.Mounted, token: token);
-
-        TaskDescription.Remove(description);
+        await WaitUntilAsync(() => Player.Mounted, "Waiting for Mount", token);
         return true;
     }
 
     internal static async Task Dismount(CancellationToken token = default)
     {
         token.ThrowIfCancellationRequested();
-        var description = "Dismounting";
-        TaskDescription.Add(description);
+        using var scope = new TaskDescriptionScope($"Dismounting"); 
+        ;
         if (!Player.Mounted)
         {
-            TaskDescription.Remove(description);
             return;
         }
 
+        PluginLog.Verbose("Dismounting");
         do
         {
             token.ThrowIfCancellationRequested();
@@ -107,8 +106,6 @@ internal static class GeneralHelpers
             await Task.Delay(GeneralDelayMs, token);
         }
         while (Svc.Condition[ConditionFlag.InFlight] || Player.Mounted);
-
-        TaskDescription.Remove(description);
     }
 
     internal static async Task IsTargetDead(IGameObject? target, CancellationToken token = default)
@@ -192,7 +189,7 @@ internal static class GeneralHelpers
 
     internal static unsafe bool IsAetheryteUnlocked(uint aetheryteId) => UIState.Instance()->IsAetheryteUnlocked(aetheryteId);
 
-    public static Vector3 GetAetherytePosition(uint aetheryteId)
+    internal static Vector3 GetAetherytePosition(uint aetheryteId)
     {
         var aetheryte = GetRow<Aetheryte>(aetheryteId)!.Value;
         var level     = aetheryte.Level[0].ValueNullable;
@@ -217,12 +214,20 @@ internal static class GeneralHelpers
         return new Vector2(x, z);
     }
 
-    public static Vector2 MapToWorld(Vector2 mapCoordinates, Map map) => MapToWorld(mapCoordinates, map.OffsetX, map.OffsetY, map.SizeFactor);
+    internal static Vector2 MapToWorld(Vector2 mapCoordinates, Map map) => MapToWorld(mapCoordinates, map.OffsetX, map.OffsetY, map.SizeFactor);
 
-    public static Vector2 MapToWorld(Vector2 mapCoordinates, int xOffset = 0, int yOffset = 0, uint scale = 100) => new(ConvertMapCoordToWorldCoord(mapCoordinates.X, scale, xOffset),
-                                                                                                                        ConvertMapCoordToWorldCoord(mapCoordinates.Y, scale, yOffset));
+    internal static Vector2 MapToWorld(Vector2 mapCoordinates, int xOffset = 0, int yOffset = 0, uint scale = 100) => new(ConvertMapCoordToWorldCoord(mapCoordinates.X, scale, xOffset),
+                                                                                                                          ConvertMapCoordToWorldCoord(mapCoordinates.Y, scale, yOffset));
 
-    public static float ConvertMapCoordToWorldCoord(float mapCoord, uint scale, int offset) => (mapCoord - 1.0f - (2048f / scale) - (0.02f * offset)) / 0.02f;
+    internal static float ConvertMapCoordToWorldCoord(float mapCoord, uint scale, int offset) => (mapCoord - 1.0f - (2048f / scale) - (0.02f * offset)) / 0.02f;
 
-    public static bool IsWithinRadius(Vector2 x, Vector2 y, float radius = 50f) => Vector2.DistanceSquared(x, y) <= radius * radius;
+    internal static bool IsWithinRadius(Vector2 x, Vector2 y, float radius = 50f) => Vector2.DistanceSquared(x, y) <= radius * radius;
+
+    internal static unsafe int GetHaterCount() => UIState.Instance()->Hater.HaterCount;
+
+    internal static unsafe Span<HaterInfo> GetHaters() => UIState.Instance()->Hater.Haters;
+
+    internal static unsafe HaterInfo[] GetHatersArray() => UIState.Instance()->Hater.Haters.ToArray();
+
+    internal static unsafe int GetItemAmount(uint itemId) => InventoryManager.Instance()->GetInventoryItemCount(itemId);
 }

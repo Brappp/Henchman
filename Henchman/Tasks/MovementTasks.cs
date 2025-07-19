@@ -7,6 +7,7 @@ using ECommons.GameHelpers;
 using ECommons.MathHelpers;
 using FFXIVClientStructs.FFXIV.Client.Game;
 using Henchman.Helpers;
+using Henchman.TaskManager;
 using Lumina.Excel.Sheets;
 
 namespace Henchman.Tasks;
@@ -25,6 +26,7 @@ internal static class MovementTasks
         await WaitUntilAsync(() => Vnavmesh.NavIsReady() && !IsPlayerBusy, "Wait for navmesh", token);
         ErrorIf(!Vnavmesh.SimpleMovePathfindAndMoveTo(interactablePosition, Player.Mounted && Player.CanFly), $"Could not find path to {interactablePosition}");
         if (!Player.Mounted && Player.DistanceTo(interactablePosition) > C.MinRunDistance) UseSprint();
+        await WaitUntilAsync(() => Vnavmesh.PathIsRunning(), "Wait for pathing to start", token);
         if (stopAtDistance)
         {
             await WaitUntilAsync(() => IsPlayerInObjectRange(dataId, distance), "Check for distance", token);
@@ -100,9 +102,12 @@ internal static class MovementTasks
         if (!Player.Mounted && Player.DistanceTo(position) > C.MinRunDistance) UseSprint();
         ErrorIf(!Vnavmesh.SimpleMovePathfindAndMoveTo(position, Player.Mounted && Player.CanFly), $"Could not find path to {position}");
         await WaitUntilAsync(() => Vnavmesh.PathIsRunning(), "Wait for pathing to start", token);
+
+        // "Stuck check" jump. Mostly if it get stuck in water.
         var lastPlayerPosition = Player.Position;
         while (true)
         {
+            await Task.Delay(1000, token);
             token.ThrowIfCancellationRequested();
             if (Player.DistanceTo(position) < 50) break;
             if (Player.DistanceTo(lastPlayerPosition) < 1f)
@@ -114,7 +119,6 @@ internal static class MovementTasks
             }
 
             lastPlayerPosition = Player.Position;
-            await Task.Delay(1000, token);
         }
     }
 
@@ -177,27 +181,20 @@ internal static class MovementTasks
 
             if (!Player.Mounted && Player.DistanceTo(point) > C.MinRunDistance) UseSprint();
 
-            if (point.Y == 0f)
-            {
-                var testingPoint = point with { Y = 512 };
-                Verbose($"{testingPoint}");
-                if (Vnavmesh.QueryMeshPointOnFloor(testingPoint, false, 15f) is { } groundPoint)
+#if DEBUG || PRIVATE
+            ErrorIf(!Vnavmesh.SimpleMovePathfindAndMoveTo(point, Player.Mounted && Player.CanFly),
+                    $"Could not find path from {Player.Position} to {point}");
+#else
+                if (WarningIf(!Vnavmesh.SimpleMovePathfindAndMoveTo(point, Player.Mounted && Player.CanFly),
+                              $"Could not find path from {Player.Position} to {point}. Skipping to next!"))
                 {
-                    ErrorIf(!Vnavmesh.SimpleMovePathfindAndMoveTo(groundPoint, Player.Mounted && Player.CanFly),
-                            $"Could not find path to {groundPoint}");
+                    continue;
                 }
-                else
-                    Error($"Could not calculate a groundPoint for roaming BNPC {targetId} area. Please Report Point: {testingPoint}");
-            }
-            else
-            {
-                ErrorIf(!Vnavmesh.SimpleMovePathfindAndMoveTo(point, Player.Mounted && Player.CanFly),
-                        $"Could not find path to {point}");
-            }
+#endif
 
             if (C.DetourForOtherAB && !gotKilledWhileDetour)
             {
-                var playerCloseToPoint = WaitUntilAsync(() => Player.DistanceTo(point.ToVector2()) < 70f, "Moving close to next roaming point!", token);
+                var playerCloseToPoint = WaitUntilAsync(() => Player.DistanceTo(point.ToVector2()) < 60f, "Moving close to next roaming point!", token);
                 ;
                 var scanningForABRanks = WaitUntilAsync(() => Svc.Objects.OfType<IBattleNpc>()
                                                                  .Any(x => Svc.Objects.OfType<IBattleNpc>()

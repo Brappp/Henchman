@@ -53,7 +53,10 @@ public class RetainerVocateUi : FeatureUI
                                                 ? 10
                                                 : (uint)C.RetainerAmount, C.RetainerClass, C.QstClassJob);
 
-            configChanged |= ImGui.Checkbox("Fill all retainer slots", ref C.UseMaxRetainerAmount);
+            
+            ImGui.Text("Fill all retainer slots");
+            ImGui.SameLine(150);
+            configChanged |= ImGui.Checkbox("##fillAllSlots", ref C.UseMaxRetainerAmount);
             if (!C.UseMaxRetainerAmount)
             {
                 ImGui.Text("Retainer amount");
@@ -102,6 +105,10 @@ public class RetainerVocateUi : FeatureUI
                 C.RetainerClass = selected.RowId;
                 configChanged   = true;
             }
+
+            ImGui.Text("Assign Exploration");
+            ImGui.SameLine(150);
+            configChanged |= ImGui.Checkbox("##firstExploration", ref C.SendOnFirstExploration);
 
             ImGui.Separator();
 

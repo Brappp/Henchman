@@ -1,10 +1,13 @@
-using System.Threading.Tasks;
+using ECommons.Automation;
 using ECommons.Automation.UIInput;
+using ECommons.Throttlers;
 using ECommons.UIHelpers.AddonMasterImplementations;
 using FFXIVClientStructs.FFXIV.Client.UI;
 using FFXIVClientStructs.FFXIV.Component.GUI;
+using Henchman.Features.RetainerVocate;
 using Henchman.Helpers;
 using Lumina.Text.ReadOnly;
+using System.Threading.Tasks;
 
 namespace Henchman.Tasks;
 
@@ -49,7 +52,7 @@ internal class AddonTasks
         return false;
     }
 
-    internal static async Task<bool> GenericYesNo(bool accept)
+    /*internal static async Task<bool> GenericYesNo(bool accept)
     {
         if (TryGetAddonMaster<AddonMaster.SelectYesno>(out var addon) && addon.IsAddonReady)
         {
@@ -63,7 +66,7 @@ internal class AddonTasks
 
         await Task.Delay(100);
         return false;
-    }
+    }*/
 
     internal static async Task<bool> RegexYesNo(bool accept, ReadOnlySeString text)
     {
@@ -107,6 +110,57 @@ internal class AddonTasks
                     Log($"TrySelectSpecificEntry: selecting {entry}");
                     return true;
                 }
+            }
+        }
+
+        await Task.Delay(100);
+        return false;
+    }
+
+    internal static async Task<bool> TrySelectFirstExplorationVenture(uint retainerClassId)
+    {
+        unsafe
+        {
+            if (TryGetAddonByName<AtkUnitBase>("RetainerTaskList", out var addon) && IsAddonReady(addon))
+            {
+                if (RetainerVocate.IsCombat(retainerClassId))
+                {
+                    Callback.Fire(addon, true, 11, 343);
+                    return true;
+                }
+
+                switch (retainerClassId)
+                {
+                    // Miner
+                    case 16:
+                        Callback.Fire(addon, true, 11, 356);
+                        break;
+                    // Botanist
+                    case 17:
+                        Callback.Fire(addon, true, 11, 369);
+                        break;
+                    // Fisher
+                    case 18:
+                        Callback.Fire(addon, true, 11, 382);
+                        break;
+                }
+
+                return true;
+            }
+        }
+
+        await Task.Delay(100);
+        return false;
+    }
+
+    internal static async Task<bool> TryClickRetainerTaskAskAssign()
+    {
+        unsafe
+        {
+            if (TryGetAddonByName<AddonRetainerTaskAsk>("RetainerTaskAsk", out var addon) && IsAddonReady(&addon->AtkUnitBase))
+            {
+                    new AddonMaster.RetainerTaskAsk(addon).Assign();
+                    return true;
             }
         }
 

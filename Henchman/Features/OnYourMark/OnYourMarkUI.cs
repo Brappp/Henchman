@@ -196,14 +196,21 @@ public class OnYourMarkUi : FeatureUI
             {
                 if (tab)
                 {
-                    configChanged |= ImGui.Checkbox("Discard old Hunt Bills##oldHuntBills", ref C.DiscardOldBills);
-                    configChanged |= ImGui.Checkbox("Detour if other A- or B-Ranks are nearby##ABDetour", ref C.DetourForOtherAB);
+                    ImGui.Text("Discard old Hunt Bills");
+                    ImGui.SameLine(250);
+                    configChanged |= ImGui.Checkbox("##oldHuntBills", ref C.DiscardOldBills);
+                    ImGui.Text("Detour if other A- or B-Ranks are nearby");
+                    ImGui.SameLine(250);
+                    configChanged |= ImGui.Checkbox("##ABDetour", ref C.DetourForOtherAB);
                     ImGui.SameLine();
                     ImGuiEx.HelpMarker("""
                                        Will only try a detour once per Mark.
                                        If your char dies while taking a detour, it will resume to find the original mark.
                                        As a safety measure, this will only work up until Stormblood.
                                        """);
+                    ImGui.Text("Skip Fate Marks");
+                    ImGui.SameLine(250);
+                    configChanged |= ImGui.Checkbox("##skipFateMarks", ref C.SkipFateMarks);
                 }
             }
 

@@ -1,17 +1,22 @@
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
 using Dalamud.Game.ClientState.Conditions;
 using Dalamud.Game.ClientState.Objects.Types;
 using ECommons.Automation;
+using ECommons.Configuration;
 using ECommons.GameFunctions;
 using ECommons.GameHelpers;
 using ECommons.MathHelpers;
+using FFXIVClientStructs.FFXIV.Client.Game;
 using FFXIVClientStructs.FFXIV.Client.Game.Fate;
 using FFXIVClientStructs.FFXIV.Client.Game.UI;
+using Henchman.Data;
 using Henchman.Helpers;
 using Henchman.Models;
+using Henchman.TaskManager;
 using Lumina.Excel.Sheets;
+using System.Linq;
+using System.Threading;
+using System.Threading.Tasks;
+using static Henchman.Helpers.GeneralHelpers;
 
 namespace Henchman.Tasks;
 
@@ -25,15 +30,16 @@ internal static class CombatTasks
             token.ThrowIfCancellationRequested();
 
             if (mark.IsDuty) continue;
+            if (C.SkipFateMarks && mark.FateId > 0) continue;
             Verbose($"Needed Kills: {(huntLog ? mark.GetOpenMonsterNoteKills : mark.GetOpenMobHuntKills)}");
 
-            var retries              = 0;
-            var gotKilledWhileDetour = false;
+            var        retries              = 0;
+            KillResult? killResult;
+            var        gotKilledWhileDetour = false;
 
             while (retries < 3)
             {
                 Verbose($"Try: {retries}");
-
                 if (Player.Territory != mark.TerritoryId)
                 {
                     if (!mark.Positions.TryGetFirst(out var markPosition))
@@ -122,6 +128,8 @@ internal static class CombatTasks
                     }
                 }
 
+                await CheckChocobo(token);
+
                 if (mark.FateId == 0)
                 {
                     Verbose($"{mark.MobHuntRowId} | {mark.MobHuntSubRowId} | {mark.GetMobHuntOrderRow.MobHuntReward.RowId}");
@@ -131,7 +139,8 @@ internal static class CombatTasks
                         {
                             var distanceOrderedPositions = Utils.SortListByDistance([.. mark.Positions]);
 
-                            for (var i = 0; i < distanceOrderedPositions.Count && retries < 3; i++)
+                            //for (var i = 0; i < distanceOrderedPositions.Count; i++)
+                            for (var i = 0; ; )
                             {
                                 var markPosition = distanceOrderedPositions[i];
                                 Verbose($"Trying position {i + 1}/{distanceOrderedPositions.Count} for {mark.Name}");
@@ -148,37 +157,41 @@ internal static class CombatTasks
                                 else
                                     await MoveToArea(markPosition, token);
 
-                                await WaitUntilAsync(() => !Vnavmesh.PathIsRunning() && !Vnavmesh.NavPathfindInProgress(), "Wait for walking to Area", token);
+                                await WaitUntilAsync(() => !Vnavmesh.PathIsRunning() && !Vnavmesh.NavPathfindInProgress(), "Wait for moving to Area", token);
 
-                                var killResult = await KillHuntMark(mark, huntLog, currentRank, gcLog, token);
+                                killResult = await KillHuntMark(mark, huntLog, currentRank, gcLog, token);
                                 if (killResult == KillResult.Success)
                                     break;
 
                                 if (killResult == KillResult.Died)
                                 {
                                     retries++;
-                                    i--;
+                                    break;
                                 }
 
-                                if (i == distanceOrderedPositions.Count) i = 0;
+                                i++;
+                                if (i >= distanceOrderedPositions.Count) i = 0;
+                                await Task.Delay(GeneralDelayMs, token);
                             }
                         }
                         else
+                        {
                             Error($"HuntMark {mark.Name} has no positions!");
+                        }
 
                         break;
                     }
-
+                    
                     if (mark.Positions.Count > 0)
                     {
-                        if (!await RoamUntilTargetNearby(mark.Positions, mark.BNpcNameRow, gotKilledWhileDetour, token))
+                        if (!await RoamUntilTargetNearby(mark.Positions, mark.BNpcNameRowId, gotKilledWhileDetour, token))
                         {
                             gotKilledWhileDetour = true;
                             retries++;
                             continue;
                         }
 
-                        var killResult = await KillHuntMark(mark, huntLog, currentRank, gcLog, token);
+                        killResult = await KillHuntMark(mark, huntLog, currentRank, gcLog, token);
                         if (killResult == KillResult.Success)
                             break;
 
@@ -201,7 +214,7 @@ internal static class CombatTasks
 
                     await WaitUntilAsync(() => !Vnavmesh.PathIsRunning() && !Vnavmesh.NavPathfindInProgress(), "Wait for walking to Area", token);
 
-                    var killResult = await KillHuntMark(mark, huntLog, currentRank, gcLog, token);
+                    killResult = await KillHuntMark(mark, huntLog, currentRank, gcLog, token);
                     if (killResult == KillResult.Success)
                         break;
 
@@ -222,7 +235,7 @@ internal static class CombatTasks
 
         Verbose($"HuntLog: {huntLog}");
         Verbose($"Open Kills: {(huntLog ? huntMark.GetOpenMonsterNoteKills : huntMark.GetOpenMobHuntKills)}");
-        Verbose($"Killing Hunt Mark: {huntMark.Name} ({huntMark.BNpcNameRow} {huntMark.MobHuntRowId} {huntMark.MobHuntSubRowId} {huntMark.GetCurrentMobHuntKills} {huntMark.GetOpenMobHuntKills})");
+        Verbose($"Killing Hunt Mark: {huntMark.Name} ({huntMark.BNpcNameRowId} {huntMark.MobHuntRowId} {huntMark.MobHuntSubRowId} {huntMark.GetCurrentMobHuntKills} {huntMark.GetOpenMobHuntKills})");
 
         while (huntLog
                        ? huntMark.GetOpenMonsterNoteKills > 0
@@ -239,14 +252,14 @@ internal static class CombatTasks
             }
 
 
-            if (await GetNearestMobByNameId(huntMark.BNpcNameRow, true, token) is not { } targetedMark)
+            if (await GetNearestMobByNameId(huntMark.BNpcNameRowId, true, token) is not { } targetedMark)
                 return KillResult.NoSpawns;
 
             if (!await KillHuntMark(huntMark, targetedMark, huntLog, openKills, token))
                 return KillResult.Died;
 
             Verbose($"Mobs to kill left: {(huntLog ? huntMark.GetOpenMonsterNoteKills : huntMark.GetOpenMobHuntKills)}");
-
+            await Task.Delay(GeneralDelayMs, token);
             await HandleHaters(token);
 
             if (huntLog)
@@ -304,6 +317,8 @@ internal static class CombatTasks
 
         if (isHuntMark)
         {
+            // TODO: There is still a bug that if you have an old hunt bill (maybe only elite) and only finish that one,
+            // that it won't register the kill as the game will just update internally to the new bill... and there the mark kills will be at 0 again... (╯°□°)╯︵ ┻━┻
             await WaitUntilAsync(() => openKills !=
                                        (isHuntLog
                                                 ? huntMark.GetOpenMonsterNoteKills
@@ -315,7 +330,9 @@ internal static class CombatTasks
 
         if (Svc.Condition[ConditionFlag.Unconscious])
         {
-            await WaitUntilAsync(() => GenericYesNo(true), "Waiting to resurrection", token);
+            PluginLog.Verbose("Player died!");
+            await WaitUntilAsync(() => RegexYesNo(true, Lang.SelectYesNoReturnTo), "Waiting for resurrection yesno", token);
+            await WaitWhileAsync(() => Svc.Condition[ConditionFlag.Unconscious], "Waiting for resurrection", token);
             return false;
         }
 
@@ -324,25 +341,31 @@ internal static class CombatTasks
 
     internal static async Task HandleHaters(CancellationToken token = default)
     {
-        HaterInfo[] haters = [];
-        unsafe
+        while (GetHaterCount() > 0)
         {
-            haters = UIState.Instance()->Hater.Haters.ToArray();
-        }
+            var hater = Svc.Objects.First(x => x.EntityId == GetHaters()[0].EntityId && !x.IsDead);
 
-        if (haters.Any(x => x.Enmity == 100))
+            using var scope = new TaskDescriptionScope($"Killing Hater: {hater.Name}");
+            if (hater.IsDead) continue;
+            Svc.Targets.Target = hater;
+            await MoveToMovingObject(hater, recheckPosition: true, token: token);
+            await IsTargetDead(hater, token);
+            await Task.Delay(GeneralDelayMs, token);
+        }
+    }
+
+    internal static async Task CheckChocobo(CancellationToken token = default)
+    {
+        if (GetItemAmount(4868) > 0)
         {
-            Verbose($"Found {haters.Length} haters.");
-            var haterIds     = haters.Select(x => x.EntityId);
-            var haterObjects = Svc.Objects.Where(x => haterIds.Contains(x.EntityId) && !x.IsDead);
-            foreach (var hater in haterObjects)
+            if (C.UseChocoboInFights && GetChocoboTimeLeft <= 300)
             {
-                using var scope = new TaskDescriptionScope($"Killing Hater: {hater.Name}");
-                if (hater.IsDead)
-                    continue;
-                Svc.Targets.Target = hater;
-                await MoveToMovingObject(hater, recheckPosition: true, token: token);
-                await IsTargetDead(hater, token);
+                unsafe
+                {
+                    if (ActionManager.Instance()->GetActionStatus(ActionType.Item, 4868) != 0) return;
+                    ActionManager.Instance()->UseAction(ActionType.Item, 4868, extraParam: 65535);
+                }
+                await WaitUntilAsync(() => !Svc.Condition[ConditionFlag.Casting], "Waiting for chocobo companion", token);
             }
         }
     }

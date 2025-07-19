@@ -51,4 +51,9 @@ internal static class InventoryHelper
         Discard(item);
         return true;
     }
+
+    internal static unsafe int GetInventoryItemCount(uint itemId)
+    {
+        return InventoryManager.Instance()->GetInventoryItemCount(itemId);
+    }
 }

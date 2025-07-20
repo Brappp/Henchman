@@ -13,7 +13,7 @@ internal class SettingsUI : FeatureUI
     public Dictionary<string, string> AutoRotationCorrectedNames = new()
                                                                    {
                                                                            { IPCNames.BossMod, IPCNames.BossMod },
-                                                                           { IPCNames.RotationSolverReborn, "Rotation Resolver Reborn" },
+                                                                           { IPCNames.RotationSolverReborn, "RotationSolverReborn" },
                                                                            { IPCNames.Wrath, IPCNames.Wrath }
                                                                    };
 

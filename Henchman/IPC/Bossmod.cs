@@ -72,11 +72,19 @@ public static class Bossmod
     {
         if (SubscriptionManager.IsInitialized(IPCNames.BossMod))
             Svc.Commands.ProcessCommand("/vbmai on");
+
+        // Putting this here as the internal name and the IPC prefix of BMR are messed up
+        if (SubscriptionManager.IsLoaded("BossModReborn"))
+            Svc.Commands.ProcessCommand("/bmrai on");
     }
 
     public static void DisableAI()
     {
         if (SubscriptionManager.IsInitialized(IPCNames.BossMod))
             Svc.Commands.ProcessCommand("/vbmai off");
+
+        // Putting this here as the internal name and the IPC prefix of BMR are messed up
+        if (SubscriptionManager.IsLoaded("BossModReborn"))
+            Svc.Commands.ProcessCommand("/bmrai off");
     }
 }

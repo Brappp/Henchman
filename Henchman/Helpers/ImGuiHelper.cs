@@ -34,7 +34,84 @@ internal static class ImGuiHelper
         ImGui.PopStyleColor();
     }
 
+    private static void DrawPluginRequirement(string pluginName, bool mandatory, float longestStringWidth, float requirementWidth, float spacing)
+    {
+        ImGui.Text(pluginName);
+        ImGui.SameLine(ImGui.GetCursorPosX() + longestStringWidth + spacing);
+        ImGui.Text(mandatory ? "(mandatory)" : "(optional)");
+        ImGui.SameLine(ImGui.GetCursorPosX() + longestStringWidth + requirementWidth + (2 * spacing));
+
+        var pluginActive = SubscriptionManager.IsInitialized(pluginName);
+        ImGui.TextColored(pluginActive ? ImGuiColors.HealerGreen : ImGuiColors.DalamudRed,
+                          pluginActive ? "enabled" : "disabled");
+    }
+
+    private static string HeaderText =>
+        """
+                For some optional plugins such as Auto Rotations, you can select your preferred option in the plugin settings.
+                If no settings are available, you'll need to manually configure alternatives for any optional plugins.
+
+                If BossMod is optional, you can also use BossModReborn for AI (not the autorotation).
+                Don't have both enabled at the same time. Henchman is not actively preventing your from being stupid! 
+                """;
+
+    private static float GetLongestIPCNameWidth()
+    {
+        return ImGui.CalcTextSize(typeof(IPCNames)
+            .GetFields(BindingFlags.Public | BindingFlags.Static)
+            .Where(f => f.FieldType == typeof(string))
+            .Select(f => (string)f.GetValue(null)!)
+            .OrderByDescending(s => s.Length)
+            .First()).X;
+    }
+
+    public static void DrawRequirements(List<(string pluginName, bool mandatory)> requirements)
+    {
+        if (requirements.Count == 0) return;
+
+        ImGui.Separator();
+        ImGuiEx.TextCentered("REQUIREMENTS");
+        ImGui.Text(HeaderText);
+        ImGui.NewLine();
+
+        var spacing = 10f;
+        var longestStringWidth = GetLongestIPCNameWidth();
+        var requirementWidth = ImGui.CalcTextSize("(mandatory)").X;
+
+        foreach (var plugin in requirements)
+        {
+            DrawPluginRequirement(plugin.pluginName, plugin.mandatory, longestStringWidth, requirementWidth, spacing);
+        }
+    }
+
     public static void DrawRequirements(HashSet<FeatureUI> featureList)
+    {
+        if (!featureList.Any(f => f.Requirements.Count > 0)) return;
+
+        ImGuiEx.TextCentered(HeaderText);
+        ImGui.NewLine();
+
+        var spacing = 10f;
+        var longestStringWidth = GetLongestIPCNameWidth();
+        var requirementWidth = ImGui.CalcTextSize("(mandatory)").X;
+
+        foreach (var feature in featureList)
+        {
+            if (feature.Requirements.Count == 0) continue;
+
+            ImGui.Separator();
+            ImGuiEx.TextCentered(feature.Name);
+            ImGui.NewLine();
+
+            foreach (var req in feature.Requirements)
+            {
+                DrawPluginRequirement(req.pluginName, req.mandatory, longestStringWidth, requirementWidth, spacing);
+            }
+        }
+    }
+
+
+    /*public static void DrawRequirements(HashSet<FeatureUI> featureList)
     {
         ImGuiEx.TextCentered("""
                              For some optional plugins such as Auto Rotations, you can select your preferred option in the plugin settings.
@@ -125,7 +202,7 @@ internal static class ImGuiHelper
                                                                             : "disabled");
             }
         }
-    }
+    }*/
 
     public static void AnimatedRainbowTextCentered(string text)
     {

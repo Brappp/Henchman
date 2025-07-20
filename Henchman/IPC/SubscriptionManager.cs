@@ -12,7 +12,7 @@ internal static class SubscriptionManager
 
     internal static bool IsInitialized(string plugin) => InitializedIPCs.Contains(plugin) && IsLoaded(plugin);
 
-    private static bool IsLoaded(string pluginName)
+    internal static bool IsLoaded(string pluginName)
     {
         return Svc.PluginInterface.InstalledPlugins.Any(x => x.InternalName == pluginName && x.IsLoaded);
     }

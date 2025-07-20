@@ -50,66 +50,83 @@ internal static class CombatTasks
 
                     var closestAetheryte = GetAetheryte(mark.TerritoryId, markPosition);
                     // TODO: Switch to MappingTheRealm once/if ever released.
-                    if (closestAetheryte > 0 && !IsAetheryteUnlocked(closestAetheryte) && mark.TerritoryId is 139 or 154 or 155)
+                    if (closestAetheryte > 0 && !IsAetheryteUnlocked(closestAetheryte) && mark.TerritoryId is 139 or 154 or 155 or 180)
                     {
-                        // Reroute through Western La Noscea if target is on the left side of Upper La Noscea
-                        if (mark.TerritoryId == 139)
+                        switch (mark.TerritoryId)
                         {
-                            ErrorIf(!IsAetheryteUnlocked(14), $"You aren't attuned to Western La Noscea Aetheryte for rerouting to territory {Svc.Data.GetExcelSheet<TerritoryType>().GetRow(mark.TerritoryId).PlaceName.Value.Name.ExtractText()} ({mark.TerritoryId})");
-                            await TeleportTo(14, token);
-                            if (IsWithinRadius(markPosition.ToVector2(), new Vector2(-460f, 150f), 150f))
-                                await MoveToNextZone(new Vector3(412f, 31f, -15f), 139, token);
-                            else
+                            // Reroute through Western La Noscea if target is on the left side of Upper La Noscea
+                            case 139:
                             {
-                                await MoveToNextZone(new Vector3(812f, 50f, 400f), 134, token);
-                                await MoveToNextZone(new Vector3(-162f, 36f, -740f), 137, token);
-
-                                if (!IsAetheryteUnlocked(12))
+                                ErrorIf(!IsAetheryteUnlocked(14), $"You aren't attuned to Western La Noscea Aetheryte for rerouting to territory {Svc.Data.GetExcelSheet<TerritoryType>().GetRow(mark.TerritoryId).PlaceName.Value.Name.ExtractText()} ({mark.TerritoryId})");
+                                await TeleportTo(14, token);
+                                if (IsWithinRadius(markPosition.ToVector2(), new Vector2(-460f, 150f), 150f))
+                                    await MoveToNextZone(new Vector3(412f, 31f, -15f), 139, token);
+                                else
                                 {
-                                    await MoveTo(new Vector3(-15f, 70.6f, 7f), true, token);
-                                    await InteractWithByDataId(12);
-                                    await WaitPulseConditionAsync(() => Svc.Condition[ConditionFlag.OccupiedInEvent], "Wait for attunement", token);
+                                    await MoveToNextZone(new Vector3(812f, 50f, 400f), 134, token);
+                                    await MoveToNextZone(new Vector3(-162f, 36f, -740f), 137, token);
+
+                                    if (!IsAetheryteUnlocked(12))
+                                    {
+                                        await MoveTo(new Vector3(-15f, 70.6f, 7f), true, token);
+                                        await InteractWithByDataId(12);
+                                        await WaitPulseConditionAsync(() => Svc.Condition[ConditionFlag.OccupiedInEvent], "Wait for attunement", token);
+                                    }
+
+                                    if (!IsAetheryteUnlocked(15))
+                                    {
+                                        await MoveToNextZone(new Vector3(82f, 80f, -125f), 139, token);
+                                        await MoveTo(new Vector3(427f, 4.11f, 92f), true, token);
+                                        await InteractWithByDataId(15);
+                                        await WaitPulseConditionAsync(() => Svc.Condition[ConditionFlag.OccupiedInEvent], "Wait for attunement", token);
+                                    }
                                 }
 
-                                if (!IsAetheryteUnlocked(15))
-                                {
-                                    await MoveToNextZone(new Vector3(82f, 80f, -125f), 139, token);
-                                    await MoveTo(new Vector3(427f, 4.11f, 92f), true, token);
-                                    await InteractWithByDataId(15);
-                                    await WaitPulseConditionAsync(() => Svc.Condition[ConditionFlag.OccupiedInEvent], "Wait for attunement", token);
-                                }
+                                break;
                             }
-                        }
-                        else if (mark.TerritoryId == 154)
-                        {
-                            ErrorIf(!IsAetheryteUnlocked(2), $"You aren't attuned to New Gridania Aetheryte for rerouting to territory {Svc.Data.GetExcelSheet<TerritoryType>().GetRow(mark.TerritoryId).PlaceName.Value.Name.ExtractText()} ({mark.TerritoryId})");
-                            await TeleportTo(2, token);
-                            await MoveToNextZone(new Vector3(-106f, 1.1f, 8f), 133, token);
-                            await MoveToNextZone(new Vector3(-208f, 10.4f, -95f), 154, token);
-
-                            await MoveTo(new Vector3(-34f, -40.45f, 232f), true, token);
-                            await InteractWithByDataId(7);
-                            await WaitPulseConditionAsync(() => Svc.Condition[ConditionFlag.OccupiedInEvent], "Wait for attunement", token);
-                        }
-                        else if (mark.TerritoryId == 155)
-                        {
-                            if (IsAetheryteUnlocked(7))
-                            {
-                                await TeleportTo(7, token);
-                                await MoveToNextZone(new Vector3(-369f, -7f, 185f), 155, token);
-                            }
-                            else
-                            {
+                            case 154:
                                 ErrorIf(!IsAetheryteUnlocked(2), $"You aren't attuned to New Gridania Aetheryte for rerouting to territory {Svc.Data.GetExcelSheet<TerritoryType>().GetRow(mark.TerritoryId).PlaceName.Value.Name.ExtractText()} ({mark.TerritoryId})");
                                 await TeleportTo(2, token);
                                 await MoveToNextZone(new Vector3(-106f, 1.1f, 8f), 133, token);
                                 await MoveToNextZone(new Vector3(-208f, 10.4f, -95f), 154, token);
-                                await MoveToNextZone(new Vector3(-369f, -7f, 185f), 155, token);
-                            }
 
-                            await MoveTo(new Vector3(229f, 312f, -238f), true, token);
-                            await InteractWithByDataId(23);
-                            await WaitPulseConditionAsync(() => Svc.Condition[ConditionFlag.OccupiedInEvent], "Wait for attunement", token);
+                                await MoveTo(new Vector3(-34f, -40.45f, 232f), true, token);
+                                await InteractWithByDataId(7);
+                                await WaitPulseConditionAsync(() => Svc.Condition[ConditionFlag.OccupiedInEvent], "Wait for attunement", token);
+                                break;
+                            case 155:
+                            {
+                                if (IsAetheryteUnlocked(7))
+                                {
+                                    await TeleportTo(7, token);
+                                    await MoveToNextZone(new Vector3(-369f, -7f, 185f), 155, token);
+                                }
+                                else
+                                {
+                                    ErrorIf(!IsAetheryteUnlocked(2), $"You aren't attuned to New Gridania Aetheryte for rerouting to territory {Svc.Data.GetExcelSheet<TerritoryType>().GetRow(mark.TerritoryId).PlaceName.Value.Name.ExtractText()} ({mark.TerritoryId})");
+                                    await TeleportTo(2, token);
+                                    await MoveToNextZone(new Vector3(-106f, 1.1f, 8f), 133, token);
+                                    await MoveToNextZone(new Vector3(-208f, 10.4f, -95f), 154, token);
+                                    await MoveToNextZone(new Vector3(-369f, -7f, 185f), 155, token);
+                                }
+
+                                await MoveTo(new Vector3(229f, 312f, -238f), true, token);
+                                await InteractWithByDataId(23);
+                                await WaitPulseConditionAsync(() => Svc.Condition[ConditionFlag.OccupiedInEvent], "Wait for attunement", token);
+                                break;
+                            }
+                            case 180:
+                            {
+
+                                ErrorIf(!IsAetheryteUnlocked(14), $"You aren't attuned to Western La Noscea Aetheryte for rerouting to territory {Svc.Data.GetExcelSheet<TerritoryType>().GetRow(mark.TerritoryId).PlaceName.Value.Name.ExtractText()} ({mark.TerritoryId})");
+                                await TeleportTo(14, token);
+                                await MoveToNextZone(new Vector3(412f, 31f, -15f), 139, token);
+                                await MoveToNextZone(new Vector3(-339f, 48.60f, -19f), 180, token);
+                                await MoveTo(new Vector3(-114f, 64.65f, -216f), true, token);
+                                await InteractWithByDataId(16);
+                                await WaitPulseConditionAsync(() => Svc.Condition[ConditionFlag.OccupiedInEvent], "Wait for attunement", token);
+                                    break;
+                            }
                         }
                     }
                     else if (closestAetheryte > 0)

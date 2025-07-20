@@ -20,10 +20,9 @@ public class RetainerVocateUi : FeatureUI
     public override Action Help => () =>
                                    {
                                        ImGui.Text("""
-                                                  Lorem ipsum dolor sit amet....
-                                                  Just kidding, I was only too lazy to write a good help text yet. 
-                                                  The UI should be self-explanatory though.
-                                                  It will even trigger the Venture Quest after doing retainers.
+                                                  Set up how you want your retainer to be and click 'Create Retainers'
+                                                  If you haven't already done the Venture Quest, it will run after creating retainers.
+                                                  
                                                   If any task fails or you somehow messed up midway, 
                                                   you can try to continue through one of the 'Single Backup Tasks' 
                                                   """);
